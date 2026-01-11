@@ -26,6 +26,7 @@ git --version
 # Should show: git version 2.x.x
 
 cloudflared --version
+
 # Should show: cloudflared version 3.x.x
 ```
 
@@ -80,6 +81,13 @@ GEMINI_API_KEY_3=AIzaSyBEPsuP0N79mPgY-8EPXsyGNgr3TYbZPqo
 GEMINI_API_KEY_4=AIzaSyAUXFXfw0vevX1kkeUISqfb4OgVJTc6gwo
 GEMINI_API_KEY_5=AIzaSyCMgh5voRuU-eF2SIiF063CdWdSD6yS9pk
 GEMINI_API_KEY_6=AIzaSyDH5ucWQhhZWVYNfIq3gnJL1tthjSucEpI
+GEMINI_API_KEY_7=AIzaSyBWDmfTY6QzsD8I6PEzOXD0WYx35Y4-B-E
+GEMINI_API_KEY_8=AIzaSyA5AJpqKibJG1IgMD7jQ01angaZk2IOeEU
+GEMINI_API_KEY_9=AIzaSyC9wxMj62kHKdc1czTab0trBAGgq3zW4ME
+GEMINI_API_KEY_10=AIzaSyC6HqW5ribs3EdXVPJtubEaonPQyqXaipQ
+GEMINI_API_KEY_11=AIzaSyCq-kse1T6ch1VedENJ_EQJw9BM4WTQHBs
+GEMINI_API_KEY_12=AIzaSyATa9f2rt5moZSi62QvVrXGDpOctVuqPUs
+GEMINI_API_KEY_13=AIzaSyBoe_Yj232WIGAPZAp6TzOP6afaTa3N3Ps
 ```
 
 Save and close Notepad (Ctrl+S, then close).

@@ -48,6 +48,13 @@ export const generateContent = async (prompt: string): Promise<string> => {
     process.env.GEMINI_API_KEY_4,
     process.env.GEMINI_API_KEY_5,
     process.env.GEMINI_API_KEY_6,
+    process.env.GEMINI_API_KEY_7,
+    process.env.GEMINI_API_KEY_8,
+    process.env.GEMINI_API_KEY_9,
+    process.env.GEMINI_API_KEY_10,
+    process.env.GEMINI_API_KEY_11,
+    process.env.GEMINI_API_KEY_12,
+    process.env.GEMINI_API_KEY_13,
   ].filter(Boolean);
 
   for (let i = 0; i < GEMINI_KEYS.length; i++) {
