@@ -1,0 +1,1370 @@
+{
+  "source": "sanfoundry_expanded",
+  "category": "wpt",
+  "totalMcqs": 118,
+  "mcqsByTopic": {
+    "Node.js": [
+      {
+        "question": "1. What is Node.js commonly used for?",
+        "options": [
+          "a) Managing databases",
+          "b) Developing mobile apps",
+          "c) Creating user interfaces",
+          "d) Building server-side applications"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "d",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "2. Which statement is true about Node.js?",
+        "options": [
+          "a) It is primarily used for desktop applications",
+          "b) It supports multi-threading out of the box",
+          "c) It operates asynchronously and uses an event-driven model",
+          "d) It operates in a synchronous manner only"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "3. Who created Node.js?",
+        "options": [
+          "a) Brendan Eich",
+          "b) Tim Berners-Lee",
+          "c) Ryan Dahl",
+          "d) James Gosling"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "4. Node.js is built on which JavaScript engine?",
+        "options": [
+          "a) SpiderMonkey",
+          "b) V8",
+          "c) Chakra",
+          "d) JavaScriptCore"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "5. What is the primary function of the Node.js event loop?",
+        "options": [
+          "a) Handling user interface updates",
+          "b) Managing multiple threads of execution",
+          "c) Handling asynchronous tasks without blocking the program",
+          "d) Processing synchronous tasks in order"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "6. Which of the following is core module of Node.js?",
+        "options": [
+          "a) webpack",
+          "b) crypto",
+          "c) mysql",
+          "d) lodash"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "7. Where are Global Objects available in Node.js?",
+        "options": [
+          "a) in the process object",
+          "b) cannot be accessed",
+          "c) within a specific module",
+          "d) in all modules"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "d",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "8. Which method is used to read a file asynchronously in Node.js?",
+        "options": [
+          "a) fs.read()",
+          "b) fs.readFile()",
+          "c) fs.readFileSync()",
+          "d) fs.readAsync()"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "9. How to install a package globally in Node.js?",
+        "options": [
+          "a) npm install -g <package_name>",
+          "b) npm install <package_name>",
+          "c) node install -g <package_name>",
+          "d) npm global <package_name>"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "10. Which object is used to manage dependencies in a Node.js project?",
+        "options": [
+          "a) config.json",
+          "b) package.json",
+          "c) node_modules",
+          "d) settings.js"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "11. Default scope of a module in Node.js application is?",
+        "options": [
+          "a) Global",
+          "b) Private",
+          "c) Public",
+          "d) Local"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "d",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "12. What is REPL in Node.js?",
+        "options": [
+          "a) Read Eval Print Loop",
+          "b) Read Execute Print Loop",
+          "c) Read Edit Print Loop",
+          "d) Read Eval Process Loop"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "13. Which core module provides utilities for working with file paths?",
+        "options": [
+          "a) url",
+          "b) fs",
+          "c) path",
+          "d) events"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "14. How do you import a module in Node.js?",
+        "options": [
+          "a) import module from 'module'",
+          "b) include('module')",
+          "c) require('module')",
+          "d) load('module')"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "15. Which of the following is NOT a built-in module?",
+        "options": [
+          "a) http",
+          "b) express",
+          "c) fs",
+          "d) os"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "16. In Node.js, how can we make an HTTP server?",
+        "options": [
+          "a) http.createServer()",
+          "b) http.server()",
+          "c) http.create()",
+          "d) http.makeServer()"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "17. Which of the following code handles a GET request in Express?",
+        "options": [
+          "a) app.get('/', function(req, res){})",
+          "b) app.post('/', function(req, res){})",
+          "c) app.fetch('/', function(req, res){})",
+          "d) server.get('/', function(req, res){})"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "18. What is the use of 'module.exports'?",
+        "options": [
+          "a) To include a module",
+          "b) To expose functions or objects from a module",
+          "c) To install a module",
+          "d) To delete a module"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "19. Which event is emitted when an unhandled exception occurs?",
+        "options": [
+          "a) error",
+          "b) exception",
+          "c) uncaughtException",
+          "d) fail"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "20. Which of the following is a stream type in Node.js?",
+        "options": [
+          "a) Readable",
+          "b) Writable",
+          "c) Duplex",
+          "d) All of the above"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "d",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "21. What does the fs module stand for?",
+        "options": [
+          "a) File Service",
+          "b) File System",
+          "c) File Store",
+          "d) File Sharing"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "22. Which method is used to remove a file in Node.js?",
+        "options": [
+          "a) fs.remove()",
+          "b) fs.delete()",
+          "c) fs.unlink()",
+          "d) fs.rm()"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "23. How do you start a Node.js application?",
+        "options": [
+          "a) start app.js",
+          "b) node app.js",
+          "c) npm run app.js",
+          "d) exec app.js"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "24. Buffer class is global in Node.js.",
+        "options": [
+          "a) True",
+          "b) False"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "25. Which function is used to create a buffer from a string?",
+        "options": [
+          "a) Buffer.from()",
+          "b) Buffer.alloc()",
+          "c) Buffer.create()",
+          "d) new Buffer()"
+        ],
+        "topic": "Node.js",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      }
+    ],
+    "React JS": [
+      {
+        "question": "1. What is React.js?",
+        "options": [
+          "a) Open-source JavaScript back-end library",
+          "b) JavaScript front-end library to create a database",
+          "c) Free and open-source JavaScript front-end library",
+          "d) None of the mentioned"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "2. What is JSX in React?",
+        "options": [
+          "a) JavaScript Execution",
+          "b) JavaScript XML",
+          "c) JavaScript Extra",
+          "d) None of the mentioned"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "3. React.js is primarily used for which of the following?",
+        "options": [
+          "a) Backend Development",
+          "b) Database Management",
+          "c) Frontend Development",
+          "d) Mobile App Development"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "4. Which of the following acts as the input of a class-based component?",
+        "options": [
+          "a) Class",
+          "b) Props",
+          "c) Factory",
+          "d) None of the mentioned"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "5. What is the main purpose of JSX in React?",
+        "options": [
+          "a) Database Query Language",
+          "b) JavaScript Function",
+          "c) CSS Styling",
+          "d) HTML-like syntax"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "6. React.js is written in which of the following language?",
+        "options": [
+          "a) C",
+          "b) C++",
+          "c) JavaScript",
+          "d) Java"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "7. How many elements can a valid react component return?",
+        "options": [
+          "a) React doesn’t return element",
+          "b) 1 Element",
+          "c) More than 1 element",
+          "d) None of the mentioned"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "8. In which of the following directory React Components are saved?",
+        "options": [
+          "a) Inside js/components/",
+          "b) Inside components/js/",
+          "c) Inside vendor/js/components/",
+          "d) Inside vendor/components/"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "9. Which of the following command is used to Install create-react-app?",
+        "options": [
+          "a) npm install create-react-app",
+          "b) npm install -f create-react-app",
+          "c) npm install -g create-react-app",
+          "d) install -g create-react-app"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "10. Which hook is used to manage state in functional components?",
+        "options": [
+          "a) useState",
+          "b) useReducer",
+          "c) useEffect",
+          "d) useRef"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "11. Which of the following is method is not a part of ReactDOM?",
+        "options": [
+          "a) ReactDOM.hydrate()",
+          "b) ReactDOM.destroy()",
+          "c) ReactDOM.createPortal()",
+          "d) All of the mentioned"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "12. Which of the following is correct about prop in react?",
+        "options": [
+          "a) Can be changed inside another component",
+          "b) Can be changed inside the component",
+          "c) Cannot be changed in the component",
+          "d) All of the mentioned"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "13. What is the virtual DOM in React?",
+        "options": [
+          "a) A DOM management system",
+          "b) A method to update the real DOM directly",
+          "c) A server-side DOM",
+          "d) A virtual version of the actual DOM"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "14. Which of the following is used to pass data to a component from outside in React?",
+        "options": [
+          "a) props",
+          "b) render with arguments",
+          "c) setState",
+          "d) PropTypes"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "15. What is the purpose of ‘React.StrictMode’?",
+        "options": [
+          "a) To add animations",
+          "b) To improve performance",
+          "c) To enhance UI",
+          "d) To add additional validation checks"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "16. Which of the following is NOT a valid React hook?",
+        "options": [
+          "a) useContext",
+          "b) useState",
+          "c) useReturn",
+          "d) useEffect"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "17. How do you create a React application?",
+        "options": [
+          "a) Using Node.js",
+          "b) Writing plain JavaScript",
+          "c) Using ‘npx create-react-app’ command",
+          "d) Using HTML"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "18. Which of the following is true about React components?",
+        "options": [
+          "a) A component must return only a single element",
+          "b) A component cannot accept props",
+          "c) A component must be a function",
+          "d) A component cannot have state"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "19. In React, what is a ‘component’?",
+        "options": [
+          "a) A method used for side effects",
+          "b) A function that takes props and returns UI",
+          "c) A class used to manage state",
+          "d) A system for routing"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "20. Which of the following is true about React Hooks?",
+        "options": [
+          "a) Hooks can be used in class components",
+          "b) Hooks can only be used in functional components",
+          "c) Hooks are used to manage props",
+          "d) Hooks are not supported in React"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "21. What is ‘React Router’ used for?",
+        "options": [
+          "a) To handle routing in a React app",
+          "b) To manage the state in React",
+          "c) To perform side effects",
+          "d) To create components"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "22. Which of the following statements is true about React?",
+        "options": [
+          "a) React automatically handles DOM updates efficiently",
+          "b) React is slower than vanilla JavaScript",
+          "c) React uses a single-threaded approach for rendering",
+          "d) React does not support components"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "23. Which of the following is used to display the UI in React?",
+        "options": [
+          "a) view()",
+          "b) display()",
+          "c) render()",
+          "d) show()"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "24. How do you pass dynamic values in JSX?",
+        "options": [
+          "a) Using props",
+          "b) Using JavaScript expressions within curly braces",
+          "c) Using the state property",
+          "d) Using plain text"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "25. What does the ‘render’ method do in React?",
+        "options": [
+          "a) Updates the state",
+          "b) Displays the UI",
+          "c) Defines the component structure",
+          "d) Initiates API calls"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "26. Which of the following best describes a ‘key’ in React?",
+        "options": [
+          "a) A method to handle state updates",
+          "b) A unique identifier for each element in a list",
+          "c) A way to reference components",
+          "d) A way to store data in local storage"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "27. What is the default method for component lifecycle in React classes?",
+        "options": [
+          "a) componentWillMount",
+          "b) constructor",
+          "c) componentDidMount",
+          "d) render"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "28. What is the primary difference between ‘useState’ and ‘useReducer’ in React?",
+        "options": [
+          "a) useState cannot update state",
+          "b) useReducer handles complex state logic",
+          "c) useState is asynchronous",
+          "d) useReducer is for props"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "29. Which of the following is a valid React event handler?",
+        "options": [
+          "a) onclick",
+          "b) reactClick",
+          "c) clickHandler",
+          "d) onClick"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "30. What is ‘React.Fragment’ used for?",
+        "options": [
+          "a) To manage state",
+          "b) To group elements without adding extra nodes to the DOM",
+          "c) To update the component’s UI",
+          "d) To optimize the component’s performance"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "31. What is ‘useMemo’ used for in React?",
+        "options": [
+          "a) To manage state",
+          "b) To cache values and avoid unnecessary recalculations",
+          "c) To perform side effects",
+          "d) To update the component tree"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "32. What is ‘useContext’ in React used for?",
+        "options": [
+          "a) To manage state globally",
+          "b) To create new components",
+          "c) To perform side effects",
+          "d) To retrieve data from an API"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "33. Which of the following is used to update the state in functional components?",
+        "options": [
+          "a) state.update()",
+          "b) useState()",
+          "c) setState()",
+          "d) changeState()"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "34. Which of the following is the correct way to handle a click event in React?",
+        "options": [
+          "a) onClick=”handleClick()”",
+          "b) onClick={handleClick}",
+          "c) event=”handleClick”",
+          "d) handleClick()"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "35. What is the purpose of React Router?",
+        "options": [
+          "a) To handle state management",
+          "b) To optimize component performance",
+          "c) To provide routing and navigation in React applications",
+          "d) To handle lifecycle methods"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "36. Which component in React Router is used to define a route?",
+        "options": [
+          "a) Link",
+          "b) BrowserRouter",
+          "c) Route",
+          "d) Switch"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "38. What is code splitting in React?",
+        "options": [
+          "a) Breaking down the application into smaller components",
+          "b) Splitting the code into separate files and loading them only when needed",
+          "c) Bundling all code into a single file",
+          "d) Loading the application incrementally"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "39. Which of the following is NOT a common way to style React components?",
+        "options": [
+          "a) Inline styles",
+          "b) External CSS files",
+          "c) Styled-components",
+          "d) JavaScript functions"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "40. Which testing framework is commonly used with React?",
+        "options": [
+          "a) Jest",
+          "b) Mocha",
+          "c) Jasmine",
+          "d) Pytest"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "41. What is the purpose of error boundaries in React?",
+        "options": [
+          "a) To improve rendering performance",
+          "b) To catch JavaScript errors in the component tree and display a fallback UI",
+          "c) To manage component state",
+          "d) To perform side effects"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "42. Which of the following is true when handling forms in React?",
+        "options": [
+          "a) Forms are uncontrolled by default",
+          "b) Forms in React can only be controlled components",
+          "c) Forms must use `onChange` to handle input updates",
+          "d) React does not support forms"
+        ],
+        "topic": "React JS",
+        "type": "CONCEPTUAL",
+        "answerChar": "a",
+        "correctAnswer": 0
+      }
+    ],
+    "jQuery": [
+      {
+        "question": "What is jQuery?",
+        "options": [
+          "a) A programming language",
+          "b) A text editor",
+          "c) A browser plugin",
+          "d) A JavaScript library"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "d",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following is not the feature of jQuery?",
+        "options": [
+          "a) Efficient query method for finding the set of document elements",
+          "b) Expressive syntax for referring to elements in the document",
+          "c) Useful set of methods for manipulating selected elements",
+          "d) Powerful functional programming techniques is not used for operating on sets of elements as a group"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "d",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the primary advantage of using jQuery?",
+        "options": [
+          "a) Faster server-side rendering",
+          "b) Compatibility with older browsers",
+          "c) Simplifying DOM manipulation and AJAX interactions",
+          "d) No need for HTML or CSS knowledge"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is a single global function defined in the jQuery library?",
+        "options": [
+          "a) $()",
+          "b) jQuery()",
+          "c) Queryanalysis()",
+          "d) global()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is the correct way to include jQuery in an HTML document?",
+        "options": [
+          "a) <script src=”jquery.js”></script>",
+          "b) <script href=”jquery.js”></script>",
+          "c) <link src=”jquery.js”>",
+          "d) <script name=”jquery.js”></script>"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which of the following is a factory function?",
+        "options": [
+          "a) Queryanalysis()",
+          "b) jQuery()",
+          "c) $()",
+          "d) onclick()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the purpose of the jQuery $(document).ready() function?",
+        "options": [
+          "a) To check if the page is completely loaded",
+          "b) To initialize CSS styles",
+          "c) To initialize jQuery",
+          "d) To check if the page is empty"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which of the following is a heavily overloaded function?",
+        "options": [
+          "a) $()",
+          "b) script()",
+          "c) jQuery()",
+          "d) Both $() and jQuery()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "d",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following is a utility function in jQuery?",
+        "options": [
+          "a) jQuery.each()",
+          "b) jQuery.noConflict()",
+          "c) jQuery.conflict()",
+          "d) jQuery.parseJSON()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which method is used to retrieve the value of an input field in jQuery?",
+        "options": [
+          "a) .getValue()",
+          "b) .get()",
+          "c) .val()",
+          "d) .value()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How can you remove an element from the DOM using jQuery?",
+        "options": [
+          "a) .unlink()",
+          "b) .detach()",
+          "c) .remove()",
+          "d) .delete()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you bind multiple events to a single element in jQuery?",
+        "options": [
+          "a) .bind()",
+          "b) .combine()",
+          "c) .on()",
+          "d) .attach()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which jQuery method is used to add content at the end of an HTML element?",
+        "options": [
+          "a) .add()",
+          "b) .append()",
+          "c) .push()",
+          "d) .merge()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which is the method that operates on the return value of $() ?",
+        "options": [
+          "a) show()",
+          "b) done()",
+          "c) click()",
+          "d) css()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "d",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following is an equivalent replacement of $(document).ready(f) ?",
+        "options": [
+          "a) jQuery(f)",
+          "b) #(f)",
+          "c) $(f)",
+          "d) read(f)"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which method is commonly used to send an AJAX GET request in jQuery?",
+        "options": [
+          "a) .post()",
+          "b) .send()",
+          "c) .ajax()",
+          "d) .get()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "d",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which method allows you to dynamically change an element’s CSS properties in jQuery?",
+        "options": [
+          "a) .style()",
+          "b) .color()",
+          "c) .css()",
+          "d) .change()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is used for parsing JSON text?",
+        "options": [
+          "a) jQuery.parseJSON()",
+          "b) jQuery.each()",
+          "c) jQuery.noConflict()",
+          "d) jQuery.conflict()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "What does the $(this).css() method do?",
+        "options": [
+          "a) Changes the entire CSS of the page",
+          "b) Changes the background color of the page",
+          "c) Retrieves the current CSS of the page",
+          "d) Changes the CSS of the selected element"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "d",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which method in jQuery is used to find the closest parent element matching a selector?",
+        "options": [
+          "a) .closest()",
+          "b) .ancestor()",
+          "c) .locate()",
+          "d) .near()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Why would you use jQuery instead of plain JavaScript?",
+        "options": [
+          "a) Better browser compatibility",
+          "b) Simplified syntax for DOM manipulation and AJAX calls",
+          "c) Built-in animation and effects",
+          "d) All of the mentioned"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "d",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which method attaches a click event to an HTML button element?",
+        "options": [
+          "a) .addEvent()",
+          "b) .bindClick()",
+          "c) .click()",
+          "d) .attachEvent()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you handle errors in an AJAX call in jQuery?",
+        "options": [
+          "a) .onError()",
+          "b) .catch()",
+          "c) .errorHandler()",
+          "d) .fail()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "d",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which jQuery selector would you use to select all elements with the class highlight?",
+        "options": [
+          "a) $(“.highlight”)",
+          "b) $(“*highlight”)",
+          "c) $(“#highlight”)",
+          "d) $(“highlight”)"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "How do you remove all child elements from a selected element in jQuery?",
+        "options": [
+          "a) .deleteAll()",
+          "b) .clear()",
+          "c) .removeAll()",
+          "d) .empty()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "d",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does the jQuery $.ajax() function do?",
+        "options": [
+          "a) Makes an asynchronous HTTP request",
+          "b) Makes a synchronous HTTP request",
+          "c) Makes a request to the database",
+          "d) Makes a request to the server and returns the result synchronously"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "What does the .wrap() method in jQuery do?",
+        "options": [
+          "a) Wraps the selected element with a new div",
+          "b) Wraps the selected element inside a modal window",
+          "c) Wraps the selected element in another element",
+          "d) Adds content to the selected element"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which symbol is used to select a class in jQuery?",
+        "options": [
+          "a) #",
+          "b) .",
+          "c) *",
+          "d) %"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which jQuery method creates a fade-in effect?",
+        "options": [
+          "a) .animate()",
+          "b) .scroll()",
+          "c) .fadeIn()",
+          "d) .move()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is used to load an external HTML file into a specified HTML element using jQuery?",
+        "options": [
+          "a) .append()",
+          "b) .get()",
+          "c) .ajax()",
+          "d) .load()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "d",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does the jQuery selector $(“div p”) do?",
+        "options": [
+          "a) Selects all <div> elements",
+          "b) Selects all <p> elements inside a <div>",
+          "c) Selects all <div> and <p> elements",
+          "d) Selects all <div> elements with a p class"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does the jQuery method .each() do?",
+        "options": [
+          "a) Adds a new class to elements",
+          "b) Changes the CSS of elements",
+          "c) Loops through each selected element",
+          "d) Selects the first element"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following events does jQuery not support?",
+        "options": [
+          "a) .dblclick()",
+          "b) .keydown()",
+          "c) .scroll()",
+          "d) .click()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "How do you trigger an event manually in jQuery?",
+        "options": [
+          "a) .triggerEvent()",
+          "b) .trigger()",
+          "c) .manual()",
+          "d) .fire()"
+        ],
+        "topic": "jQuery",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      }
+    ]
+  }
+}

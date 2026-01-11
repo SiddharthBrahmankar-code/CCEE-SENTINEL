@@ -1,0 +1,605 @@
+/* ==========================================
+   LIGHT MODE - Modern Tech Vibrant Theme
+   NO READING MODE - Pure bright tech aesthetic
+   NO GRAY - Only vibrant saturated colors
+   Dark mode untouched (stays amazing!)
+   ========================================== */
+
+/* Light mode CSS variables - Modern & Vibrant */
+.light-mode {
+  /* Pure crisp backgrounds */
+  --cyber-black: #ffffff;
+  --cyber-dark: #f0f9ff;  /* Light blue tint */
+  --cyber-panel: #e0f2fe;  /* Bright blue tint */
+  
+  /* Vibrant text colors - NO GRAY */
+  --cyber-text: #0c4a6e;  /* Deep cyan-blue */
+  --cyber-muted: #6366f1;  /* Vibrant indigo */
+  
+  /* Electric bright accents */
+  --cyber-primary: #0ea5e9;  /* Electric cyan */
+  --cyber-accent: #a855f7;   /* Electric purple */
+  --cyber-success: #22c55e;  /* Electric green */
+  --cyber-danger: #f43f5e;   /* Electric rose */
+}
+
+/* Body - Pure white with subtle blue tint */
+.light-mode {
+  background: #ffffff;
+  color: #0c4a6e;
+}
+
+/* Bright backgrounds with blue tints */
+.light-mode .bg-cyber-black {
+  background: #ffffff !important;
+}
+
+.light-mode .bg-cyber-dark {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%) !important;
+}
+
+.light-mode .bg-cyber-panel {
+  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%) !important;
+}
+
+.light-mode .bg-cyber-dark\/30,
+.light-mode .bg-cyber-dark\/40,
+.light-mode .bg-cyber-dark\/50,
+.light-mode .bg-cyber-dark\/60,
+.light-mode .bg-cyber-dark\/80 {
+  background: rgba(224, 242, 254, 0.8) !important;
+}
+
+.light-mode .bg-cyber-black\/20,
+.light-mode .bg-cyber-black\/30,
+.light-mode .bg-cyber-black\/40,
+.light-mode .bg-cyber-black\/50 {
+  background: rgba(255, 255, 255, 0.95) !important;
+}
+
+/* Vibrant text colors */
+.light-mode .text-white {
+  color: #0c4a6e !important;
+}
+
+.light-mode .text-cyber-text {
+  color: #0c4a6e !important;
+}
+
+.light-mode .text-cyber-muted {
+  color: #6366f1 !important;
+}
+
+.light-mode .text-cyber-primary {
+  color: #0ea5e9 !important;
+}
+
+.light-mode .text-cyber-accent {
+  color: #a855f7 !important;
+}
+
+.light-mode .text-cyber-success {
+  color: #22c55e !important;
+}
+
+.light-mode .text-cyber-danger {
+  color: #f43f5e !important;
+}
+
+/* Colorful borders */
+.light-mode .border-white\/10,
+.light-mode .border-white\/5 {
+  border-color: rgba(14, 165, 233, 0.2) !important;
+}
+
+.light-mode .border-white\/20,
+.light-mode .border-white\/30 {
+  border-color: rgba(14, 165, 233, 0.3) !important;
+}
+
+.light-mode .border-cyber-primary\/20,
+.light-mode .border-cyber-primary\/30 {
+  border-color: rgba(14, 165, 233, 0.4) !important;
+}
+
+.light-mode .border-cyber-primary\/50 {
+  border-color: #0ea5e9 !important;
+}
+
+.light-mode .border-cyber-success\/20,
+.light-mode .border-cyber-success\/30 {
+  border-color: rgba(34, 197, 94, 0.4) !important;
+}
+
+.light-mode .border-cyber-success\/50 {
+  border-color: #22c55e !important;
+}
+
+.light-mode .border-cyber-danger\/20,
+.light-mode .border-cyber-danger\/30 {
+  border-color: rgba(244, 63, 94, 0.4) !important;
+}
+
+.light-mode .border-cyber-danger\/50 {
+  border-color: #f43f5e !important;
+}
+
+/* Cards - Crisp with electric borders */
+.light-mode .card {
+  background: #ffffff !important;
+  border: 2px solid #0ea5e9 !important;
+  box-shadow: 
+    0 4px 20px rgba(14, 165, 233, 0.2),
+    0 2px 10px rgba(168, 85, 247, 0.1) !important;
+}
+
+/* Buttons - Electric and vibrant */
+.light-mode .btn-primary {
+  background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 
+    0 4px 20px rgba(14, 165, 233, 0.5),
+    0 2px 10px rgba(14, 165, 233, 0.3) !important;
+}
+
+.light-mode .btn-primary:hover {
+  background: linear-gradient(135deg, #0284c7 0%, #0891b2 100%) !important;
+  box-shadow: 
+    0 6px 30px rgba(14, 165, 233, 0.6),
+    0 3px 15px rgba(14, 165, 233, 0.4) !important;
+  transform: translateY(-2px);
+}
+
+/* Select dropdown - Modern electric */
+.light-mode .select-cyber {
+  background: #ffffff !important;
+  border: 2px solid #0ea5e9 !important;
+  color: #0c4a6e !important;
+  box-shadow: 
+    0 4px 16px rgba(14, 165, 233, 0.2),
+    0 2px 8px rgba(14, 165, 233, 0.1) !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%230ea5e9' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E") !important;
+}
+
+.light-mode .select-cyber:hover {
+  border-color: #06b6d4 !important;
+  box-shadow: 
+    0 6px 24px rgba(14, 165, 233, 0.3),
+    0 3px 12px rgba(14, 165, 233, 0.2) !important;
+}
+
+.light-mode .select-cyber:focus {
+  border-color: #0284c7 !important;
+  box-shadow: 
+    0 0 0 4px rgba(14, 165, 233, 0.2),
+    0 6px 30px rgba(14, 165, 233, 0.4) !important;
+}
+
+.light-mode .select-cyber option {
+  background: #ffffff !important;
+  color: #0c4a6e !important;
+}
+
+.light-mode .select-cyber option:checked,
+.light-mode .select-cyber option:hover {
+  background: linear-gradient(90deg, rgba(14, 165, 233, 0.3) 0%, rgba(14, 165, 233, 0.1) 100%) !important;
+  color: #0ea5e9 !important;
+}
+
+/* Electric accent backgrounds */
+.light-mode .bg-cyber-primary\/10,
+.light-mode .bg-cyber-primary\/5 {
+  background: rgba(14, 165, 233, 0.15) !important;
+}
+
+.light-mode .bg-cyber-success\/10,
+.light-mode .bg-cyber-success\/5 {
+  background: rgba(34, 197, 94, 0.15) !important;
+}
+
+.light-mode .bg-cyber-danger\/10,
+.light-mode .bg-cyber-danger\/5 {
+  background: rgba(244, 63, 94, 0.15) !important;
+}
+
+.light-mode .bg-blue-500\/10,
+.light-mode .bg-blue-500\/20 {
+  background: rgba(59, 130, 246, 0.2) !important;
+}
+
+.light-mode .bg-purple-500\/10,
+.light-mode .bg-purple-500\/20 {
+  background: rgba(168, 85, 247, 0.2) !important;
+}
+
+.light-mode .bg-orange-500\/10,
+.light-mode .bg-orange-500\/20 {
+  background: rgba(249, 115, 22, 0.2) !important;
+}
+
+.light-mode .bg-amber-500\/10,
+.light-mode .bg-amber-500\/20 {
+  background: rgba(245, 158, 11, 0.2) !important;
+}
+
+/* Electric colorful shadows */
+.light-mode .shadow-neon-blue {
+  box-shadow: 
+    0 8px 32px rgba(14, 165, 233, 0.4),
+    0 4px 16px rgba(14, 165, 233, 0.3) !important;
+}
+
+.light-mode .shadow-neon-red {
+  box-shadow: 
+    0 8px 32px rgba(244, 63, 94, 0.4),
+    0 4px 16px rgba(244, 63, 94, 0.3) !important;
+}
+
+.light-mode .shadow-xl {
+  box-shadow: 
+    0 8px 32px rgba(14, 165, 233, 0.15),
+    0 4px 16px rgba(168, 85, 247, 0.1) !important;
+}
+
+.light-mode .shadow-2xl {
+  box-shadow: 
+    0 12px 48px rgba(14, 165, 233, 0.2),
+    0 6px 24px rgba(168, 85, 247, 0.15) !important;
+}
+
+/* Electric scrollbar */
+.light-mode ::-webkit-scrollbar-track {
+  background: #f0f9ff !important;
+}
+
+.light-mode ::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #0ea5e9 0%, #a855f7 100%) !important;
+  border-radius: 4px;
+}
+
+.light-mode ::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #0284c7 0%, #9333ea 100%) !important;
+}
+
+/* Code blocks - Vibrant purple theme */
+.light-mode pre,
+.light-mode code {
+  background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%) !important;
+  color: #6b21a8 !important;
+  border: 2px solid #a855f7 !important;
+}
+
+/* Electric hover states */
+.light-mode .hover\:bg-white\/5:hover,
+.light-mode .hover\:bg-white\/10:hover {
+  background: rgba(14, 165, 233, 0.1) !important;
+}
+
+.light-mode .hover\:border-white\/20:hover {
+  border-color: rgba(14, 165, 233, 0.3) !important;
+}
+
+.light-mode .hover\:border-white\/30:hover {
+  border-color: rgba(14, 165, 233, 0.5) !important;
+}
+
+/* Vibrant saturated text colors */
+.light-mode .text-blue-400,
+.light-mode .text-blue-500 {
+  color: #3b82f6 !important;
+}
+
+.light-mode .text-purple-400,
+.light-mode .text-purple-500 {
+  color: #a855f7 !important;
+}
+
+.light-mode .text-orange-400,
+.light-mode .text-orange-500 {
+  color: #f97316 !important;
+}
+
+.light-mode .text-amber-400,
+.light-mode .text-amber-500 {
+  color: #f59e0b !important;
+}
+
+.light-mode .text-emerald-400,
+.light-mode .text-green-400 {
+  color: #22c55e !important;
+}
+
+.light-mode .text-red-400,
+.light-mode .text-red-500 {
+  color: #f43f5e !important;
+}
+
+.light-mode .text-cyan-400,
+.light-mode .text-cyan-500 {
+  color: #22d3ee !important;
+}
+
+.light-mode .text-pink-400,
+.light-mode .text-pink-500 {
+  color: #ec4899 !important;
+}
+
+.light-mode .text-indigo-400,
+.light-mode .text-indigo-500 {
+  color: #6366f1 !important;
+}
+
+/* Modern gradients */
+.light-mode .bg-gradient-to-r {
+  background-image: linear-gradient(to right, #f0f9ff 0%, #e0f2fe 50%, #f0f9ff 100%) !important;
+}
+
+.light-mode .bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, #ffffff 0%, #f0f9ff 50%, #e0f2fe 100%) !important;
+}
+
+/* Electric accent borders with glow */
+.light-mode .border-cyber-primary {
+  border-color: #0ea5e9 !important;
+  box-shadow: 0 0 20px rgba(14, 165, 233, 0.4) !important;
+}
+
+.light-mode .border-cyber-success {
+  border-color: #22c55e !important;
+  box-shadow: 0 0 20px rgba(34, 197, 94, 0.4) !important;
+}
+
+.light-mode .border-cyber-danger {
+  border-color: #f43f5e !important;
+  box-shadow: 0 0 20px rgba(244, 63, 94, 0.4) !important;
+}
+
+/* Input fields - Electric modern */
+.light-mode input[type="text"],
+.light-mode input[type="email"],
+.light-mode input[type="password"],
+.light-mode textarea {
+  background: #ffffff !important;
+  border: 2px solid #0ea5e9 !important;
+  color: #0c4a6e !important;
+  box-shadow: 
+    0 2px 12px rgba(14, 165, 233, 0.15),
+    0 1px 6px rgba(14, 165, 233, 0.1) !important;
+}
+
+.light-mode input:focus,
+.light-mode textarea:focus {
+  border-color: #0284c7 !important;
+  box-shadow: 
+    0 0 0 4px rgba(14, 165, 233, 0.2),
+    0 4px 20px rgba(14, 165, 233, 0.3) !important;
+}
+
+/* Remove ALL gray/black backgrounds */
+.light-mode .bg-black,
+.light-mode .bg-gray-50,
+.light-mode .bg-gray-100,
+.light-mode .bg-gray-200,
+.light-mode .bg-gray-300,
+.light-mode .bg-gray-400,
+.light-mode .bg-gray-500,
+.light-mode .bg-gray-600,
+.light-mode .bg-gray-700,
+.light-mode .bg-gray-800,
+.light-mode .bg-gray-900 {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%) !important;
+}
+
+/* Remove ALL gray text */
+.light-mode .text-gray-300,
+.light-mode .text-gray-400,
+.light-mode .text-gray-500,
+.light-mode .text-gray-600,
+.light-mode .text-gray-700,
+.light-mode .text-gray-800,
+.light-mode .text-gray-900,
+.light-mode .text-black {
+  color: #0c4a6e !important;
+}
+
+/* Electric notification badges */
+.light-mode .bg-red-500 {
+  background: linear-gradient(135deg, #f43f5e 0%, #e11d48 100%) !important;
+}
+
+.light-mode .bg-green-500 {
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+}
+
+.light-mode .bg-blue-500 {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
+}
+
+.light-mode .bg-yellow-500 {
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%) !important;
+}
+
+.light-mode .bg-purple-500 {
+  background: linear-gradient(135deg, #a855f7 0%, #9333ea 100%) !important;
+}
+
+/* Electric table styles */
+.light-mode table {
+  border-color: #0ea5e9 !important;
+}
+
+.light-mode th {
+  background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%) !important;
+  color: #ffffff !important;
+  border-color: #0369a1 !important;
+}
+
+.light-mode td {
+  border-color: rgba(14, 165, 233, 0.25) !important;
+}
+
+/* Bright overlays */
+.light-mode .bg-black\/20,
+.light-mode .bg-black\/30,
+.light-mode .bg-black\/40,
+.light-mode .bg-black\/50,
+.light-mode .bg-black\/60 {
+  background: rgba(14, 165, 233, 0.08) !important;
+}
+
+/* Panel specific - make colorful */
+.light-mode .bg-\[#0a0a12\],
+.light-mode .bg-\[#08080f\],
+.light-mode .bg-\[#12121a\] {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%) !important;
+  color: #0c4a6e !important;
+}
+
+/* ==========================================
+   CRITICAL FIXES FOR VISUAL BUGS
+   ========================================== */
+
+/* Fix dropdown arrow repetition - remove default browser arrow */
+.light-mode select {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  padding-right: 50px !important;
+}
+
+/* Ensure only ONE custom arrow appears */
+.light-mode select::-ms-expand {
+  display: none !important;
+}
+
+/* Fix dark headers and panels */
+.light-mode header,
+.light-mode .header,
+.light-mode [class*="header"] {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%) !important;
+  color: #0c4a6e !important;
+}
+
+/* Fix any dark title bars */
+.light-mode .title-bar,
+.light-mode .titlebar,
+.light-mode [role="banner"] {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%) !important;
+  color: #0c4a6e !important;
+}
+
+/* Fix dark modals and dialogs */
+.light-mode .modal,
+.light-mode .dialog,
+.light-mode [role="dialog"] {
+  background: #ffffff !important;
+  color: #0c4a6e !important;
+}
+
+/* Fix any remaining dark backgrounds by class pattern */
+.light-mode [class*="bg-dark"],
+.light-mode [class*="dark-"],
+.light-mode [class*="Dark"] {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%) !important;
+  color: #0c4a6e !important;
+}
+
+/* Fix specific dark background values */
+.light-mode [style*="background: #0"],
+.light-mode [style*="background:#0"],
+.light-mode [style*="background-color: #0"],
+.light-mode [style*="background-color:#0"] {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%) !important;
+  color: #0c4a6e !important;
+}
+
+/* Fix chat widget and floating panels */
+.light-mode .chat-widget,
+.light-mode .floating-panel,
+.light-mode [class*="widget"] {
+  background: #ffffff !important;
+  border: 2px solid #0ea5e9 !important;
+}
+
+/* Fix navigation bars */
+.light-mode nav,
+.light-mode .nav,
+.light-mode .navbar,
+.light-mode [role="navigation"] {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%) !important;
+  color: #0c4a6e !important;
+}
+
+/* Fix sidebar panels */
+.light-mode .sidebar,
+.light-mode aside,
+.light-mode [role="complementary"] {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%) !important;
+  color: #0c4a6e !important;
+}
+
+/* Fix footer */
+.light-mode footer,
+.light-mode .footer {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%) !important;
+  color: #0c4a6e !important;
+}
+
+/* Override any inline dark styles */
+.light-mode [style*="rgb(10, 10, 18)"],
+.light-mode [style*="rgb(18, 18, 26)"] {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%) !important;
+  color: #0c4a6e !important;
+}
+
+/* Fix opacity overlays to be light */
+.light-mode .overlay,
+.light-mode [class*="overlay"] {
+  background: rgba(14, 165, 233, 0.1) !important;
+}
+
+/* Ensure buttons don't have dark backgrounds */
+.light-mode button:not(.btn-primary) {
+  background: #ffffff !important;
+  color: #0c4a6e !important;
+  border: 2px solid #0ea5e9 !important;
+}
+
+.light-mode button:not(.btn-primary):hover {
+  background: rgba(14, 165, 233, 0.1) !important;
+}
+
+/* Fix link colors */
+.light-mode a {
+  color: #0ea5e9 !important;
+}
+
+.light-mode a:hover {
+  color: #0284c7 !important;
+}
+
+/* Ensure all SVG icons are visible */
+.light-mode svg {
+  color: #0ea5e9 !important;
+  fill: currentColor !important;
+}
+
+/* Fix form labels */
+.light-mode label {
+  color: #0c4a6e !important;
+}
+
+/* Fix placeholder text */
+.light-mode ::placeholder {
+  color: #6366f1 !important;
+  opacity: 0.7 !important;
+}
+
+/* Fix disabled states */
+.light-mode :disabled,
+.light-mode [disabled] {
+  opacity: 0.5 !important;
+  background: rgba(224, 242, 254, 0.5) !important;
+}
+

@@ -1,0 +1,291 @@
+{
+  "source": "sanfoundry_expanded",
+  "category": "dotnet",
+  "totalMcqs": 20,
+  "mcqsByTopic": {
+    "LINQ": [
+      {
+        "question": "1. Assume 2 columns named as Product and Category how can be both sorted out based on first by category and then by product name?",
+        "options": [
+          "a) var sortedProds = _db.Products.Orderby(c => c.Category)",
+          "b) var sortedProds = _db.Products.Orderby(c => c.Category) + ThenBy(n => n.Name)",
+          "c) var sortedProds = _db.Products.Orderby(c => c.Category) . ThenBy(n => n.Name)",
+          "d) all of the mentioned"
+        ],
+        "topic": "LINQ",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "2. Choose the wrong statement about the LINQ?",
+        "options": [
+          "a) The main concept behind the linq is query",
+          "b) linq makes use of foreach loop to execute the query",
+          "c) It is not required that linq should make use of IEnumerable interface",
+          "d) None of the mentioned"
+        ],
+        "topic": "LINQ",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "3. Choose the namespace in which the interface IEnumerable is declared?",
+        "options": [
+          "a) System.Collections",
+          "b) System.Collections.Generic",
+          "c) Both System.Collections & System.Collections.Generic",
+          "d) None of the mentioned"
+        ],
+        "topic": "LINQ",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "4. Can we use linq to query against a DataTable?",
+        "options": [
+          "a) Yes",
+          "b) No",
+          "c) Either Yes or No",
+          "d) None of the mentioned"
+        ],
+        "topic": "LINQ",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "5. What will be the output of the following C# code snippet?\nclass Program\n{\nstatic void Main(string[] args)\n{\nint[] nums = { 1, -2, 3, 0, -4, 5};\nvar posNums = from n in nums\nwhere n >= 0\nselect n;\nforeach (int i in posNums)\nConsole.Write(i + \" \");\nConsole.WriteLine();\nConsole.ReadLine();\n}\n}",
+        "options": [
+          "a) 0, 1, -2, -4, 5",
+          "b) 1, 3, 0, 5",
+          "c) 1, 3, 5",
+          "d) Run time error"
+        ],
+        "topic": "LINQ",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "6. Select the namespace which should be included while making use of LINQ operations?",
+        "options": [
+          "a) System.Text",
+          "b) System.Collections.Generic",
+          "c) System.Linq",
+          "d) None of the mentioned"
+        ],
+        "topic": "LINQ",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "7. What will be the output of the following C# code snippet?\nclass Program\n{\nstatic void Main(string[] args)\n{\nint[] nums = { 1, -2, 3, 0, -4, 5 };\nvar posNums = from n in nums\nwhere n % 2 ==0\nselect n;\nConsole.Write(\"The positive values in nums: \");\nforeach (int i in posNums) Console.Write(i + \" \");\nConsole.WriteLine();\nConsole.ReadLine();\n}\n}",
+        "options": [
+          "a) code run successfully prints nothing",
+          "b) run time error",
+          "c) code run successfully and executes output",
+          "d) compile time error"
+        ],
+        "topic": "LINQ",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "8. What will be the output of the following C# code snippet?\nclass Program\n{\nstatic void Main(string[] args)\n{\nint[] nums = { 1, -2, 3, 0, -4, 5 };\nvar posNums = from n in nums\nwhere n > -5 && n < 6\norderby n descending\nselect n;\nConsole.Write(\"The positive values in nums: \");\nforeach (int i in posNums) Console.Write(i + \" \");\nConsole.WriteLine();\nConsole.ReadLine();\n}\n}",
+        "options": [
+          "a) Prints nothing code runs successfully",
+          "b) Run time error",
+          "c) Arranged in descending order code runs successfully",
+          "d) Compile time error"
+        ],
+        "topic": "LINQ",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "9. What will be the output of the following C# code snippet?\nclass Program\n{\nstatic void Main(string[] args)\n{\nint[] nums = { 16,  9, 25};\nvar posNums = from n in nums\nwhere n > 0\nselect Math.Sqrt(n);\nConsole.Write(\"The positive values in nums: \");\nforeach (int i in posNums) Console.Write(i + \" \");\nConsole.WriteLine();\nConsole.ReadLine();\n}\n}",
+        "options": [
+          "a) Code runs successfully prints nothing",
+          "b) Code runs successfully prints required output",
+          "c) Run time error",
+          "d) Compile time error"
+        ],
+        "topic": "LINQ",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "10. What will be the output of the following C# code snippet?\nclass Program\n{\nstatic void Main(string[] args)\n{\nint[] nums = {1};\nvar posNums = from n in nums\nwheres n > 0\nselect Math.Max(78, 9);\nConsole.Write(\"The largest values in nums: \");\nforeach (int i in posNums) Console.Write(i + \" \");\nConsole.WriteLine();\nConsole.ReadLine();\n}\n}",
+        "options": [
+          "a) Code runs successfully prints nothing",
+          "b) Run time error",
+          "c) Code runs successfully prints required output",
+          "d) Compile time error"
+        ],
+        "topic": "LINQ",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      }
+    ],
+    "ADO.NET": [
+      {
+        "question": "To use the .NET Framework Data Provider for SQL Server, an application must reference the _____________ namespace.",
+        "options": [
+          "a) System.Data.Client",
+          "b) System.Data.SqlClient",
+          "c) System.Data.Sql",
+          "d) None of the mentioned"
+        ],
+        "topic": "ADO.NET",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Point out the correct statement.",
+        "options": [
+          "a) Using the System.Data.SqlClient, you can fill a memory-resident DataSet that you can use to query and update the database",
+          "b) System.Data.SqlClient includes a tabular data stream (TDS) parser to communicate directly with SQL Server",
+          "c) SqlBulkCopyColumnMapping lets you efficiently bulk load a SQL Server table with data from another source",
+          "d) None of the mentioned"
+        ],
+        "topic": "ADO.NET",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Valid Code for Creating a SqlConnection Object would be ____________\nSqlConnection conn = NEW SqlConnection(\"Data Source=(local);Initial Catalog=Northwind;Integrated Security=SSPI\");",
+        "options": [
+          "a) Option A",
+          "b) Option B",
+          "c) Option C",
+          "d) All of the mentioned"
+        ],
+        "topic": "ADO.NET",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Code snippet for having a named instance of SQL Server would be ___________",
+        "options": [
+          "a) “Server=localhost\\sqlexpress”",
+          "b) “Server=local\\sqlexpress”",
+          "c) “Server=host\\sqlexpress”",
+          "d) “Ser=localhost\\sqlexpress”"
+        ],
+        "topic": "ADO.NET",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Point out the wrong statement.",
+        "options": [
+          "a) The goal of dotConnect for SQL Server is to enable developers to maintain database applications",
+          "b) dotConnect for SQL Server combines connected and disconnected data access models in single SqlDataTable component",
+          "c) dotConnect for SQL Server supports new ADO.NET features and technologies as soon as they are released",
+          "d) None of the mentioned"
+        ],
+        "topic": "ADO.NET",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which of the following is enumeration for ADO.net with SQL Server?",
+        "options": [
+          "a) SqlInfo",
+          "b) SqlBulkCopyOptions",
+          "c) SqlNotification",
+          "d) All of the mentioned"
+        ],
+        "topic": "ADO.NET",
+        "type": "CONCEPTUAL",
+        "answer": "b",
+        "answerChar": "b",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Syntax for closing and opening the connection in ADO.net is _______________",
+        "options": [
+          "a) sqlConn.Open() and sqlConn.close()",
+          "b) sqlConn.open() and sqlConn.Close()",
+          "c) sqlConn.Open() and sqlConn.Close()",
+          "d) none of the mentioned"
+        ],
+        "topic": "ADO.NET",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following gives trusted Connection from a CE device?\nconnetionString=\"Data Source=ServerName; Integrated Security=SSPI;\"",
+        "options": [
+          "a) Option A",
+          "b) Option B",
+          "c) Option C",
+          "d) All of the mentioned"
+        ],
+        "topic": "ADO.NET",
+        "type": "CONCEPTUAL",
+        "answer": "a",
+        "answerChar": "a",
+        "correctAnswer": 0
+      },
+      {
+        "question": "The main features of dotConnect for SQL Server includes ___________",
+        "options": [
+          "a) Extra data binding capabilities",
+          "b) Ability of monitoring query execution",
+          "c) Supports the latest versions of SQL Server",
+          "d) All of the mentioned"
+        ],
+        "topic": "ADO.NET",
+        "type": "CONCEPTUAL",
+        "answer": "d",
+        "answerChar": "d",
+        "correctAnswer": 3
+      },
+      {
+        "question": "__________object is used to fill a DataSet/DataTable with query results in ADO.net.",
+        "options": [
+          "a) DataReader",
+          "b) Dataset",
+          "c) DataAdapter",
+          "d) DataTables"
+        ],
+        "topic": "ADO.NET",
+        "type": "CONCEPTUAL",
+        "answer": "c",
+        "answerChar": "c",
+        "correctAnswer": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "categories": {
+    "csharp": {
+      "topics": 85,
+      "mcqs": 444
+    },
+    "html": {
+      "topics": 74,
+      "mcqs": 799
+    },
+    "css": {
+      "topics": 60,
+      "mcqs": 560
+    },
+    "javascript": {
+      "topics": 92,
+      "mcqs": 869
+    }
+  },
+  "totalMcqs": 2672,
+  "scrapedAt": "2026-01-04T06:01:17.378Z"
+}

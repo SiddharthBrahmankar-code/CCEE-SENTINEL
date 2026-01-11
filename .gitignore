@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables (contains API keys)
+.env
+.env.local
+.env.*.local
+server/.env
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+test-*.ts
+test_*.ts
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python virtual env
+.venv/
+__pycache__/
+*.pyc
+
+# Test JSON files
+quick_test*.json
+test_mock*.json
+
+# Mobile build artifacts
+mobile/.expo/
+mobile/android/
+mobile/ios/
+
+# Large PDF files (>50MB)
+data/PYQ/CDAC CCEE EXAM merged.pdf
+data/ccee/Sunbeam All Subject theory Notes.pdf
+*.pdf

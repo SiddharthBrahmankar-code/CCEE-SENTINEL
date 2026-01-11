@@ -1,0 +1,142 @@
+[
+    {
+        "id": "static_1",
+        "question": "What is the time complexity of searching in a balanced Binary Search Tree (BST) in the worst case?",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n log n)",
+            "O(1)"
+        ],
+        "correctAnswer": 1,
+        "type": "THEORY",
+        "explanation": "In a balanced BST (like AVL or Red-Black Tree), the height is limited to O(log n). Since search follows a path from root to leaf, the complexity corresponds to the height, which is O(log n).",
+        "trapType": "Confusion with unbalanced BST (O(n))"
+    },
+    {
+        "id": "static_2",
+        "question": "Which of the following data structures is primarily used to implement recursion?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Linked List",
+            "Tree"
+        ],
+        "correctAnswer": 1,
+        "type": "THEORY",
+        "explanation": "Recursion relies on the Call Stack. Each recursive function call pushes a new stack frame containing local variables and return address onto the stack. When the function returns, the frame is popped.",
+        "trapType": "None"
+    },
+    {
+        "id": "static_3",
+        "question": "Predict the output:\\nint a = 5;\\nint b = a++ + ++a;\\nSystem.out.println(b);",
+        "options": [
+            "11",
+            "12",
+            "13",
+            "10"
+        ],
+        "correctAnswer": 1,
+        "type": "OUTPUT",
+        "explanation": "1. `a++` uses 5, then `a` becomes 6.\\n2. `++a` increments `a` to 7, then uses 7.\\n3. Sum is 5 + 7 = 12.",
+        "trapType": "Pre-increment vs Post-increment"
+    },
+    {
+        "id": "static_4",
+        "question": "In Java, what happens if a `finally` block creates an exception while the `catch` block is already handling one?",
+        "options": [
+            "The original exception is propagated",
+            "The new exception from finally is propagated",
+            "Both exceptions are combined",
+            "Compiler Error"
+        ],
+        "correctAnswer": 1,
+        "type": "THEORY",
+        "explanation": "If an exception is thrown within a `finally` block, it suppresses any exception that was previously active (from the `try` or `catch` block) and propagates the new exception up the stack.",
+        "trapType": "Exception Suppression"
+    },
+    {
+        "id": "static_5",
+        "question": "Which sorting algorithm has the best worst-case time complexity among the following?",
+        "options": [
+            "Quick Sort",
+            "Merge Sort",
+            "Bubble Sort",
+            "Insertion Sort"
+        ],
+        "correctAnswer": 1,
+        "type": "THEORY",
+        "explanation": "Merge Sort guarantees O(n log n) in all cases (worst, average, best). Quick Sort has a worst-case of O(n^2). Bubble and Insertion sort are O(n^2).",
+        "trapType": "Quick Sort average vs worst case"
+    },
+    {
+        "id": "static_6",
+        "question": "What is the purpose of the `volatile` keyword in Java?",
+        "options": [
+            "To make a variable constant",
+            "To prevent a variable from being serialized",
+            "To ensure visibility of changes across threads",
+            "To mark a method as synchronized"
+        ],
+        "correctAnswer": 2,
+        "type": "THEORY",
+        "explanation": "`volatile` guarantees visibility. It ensures that any write to the variable is immediately flushed to main memory, and any read comes from main memory, bypassing CPU caches. It does NOT guarantee atomicity.",
+        "trapType": "Confusion with Synchronization"
+    },
+    {
+        "id": "static_7",
+        "question": "Given the following code:\\nString s1 = \"Hello\";\\nString s2 = new String(\"Hello\");\\nSystem.out.println(s1 == s2);",
+        "options": [
+            "true",
+            "false",
+            "Compilation Error",
+            "Runtime Error"
+        ],
+        "correctAnswer": 1,
+        "type": "OUTPUT",
+        "explanation": "`s1` refers to a literal in the String Pool. `s2` creates a new object on the Heap. The `==` operator compares references (memory addresses), which are different. `equals()` would return true.",
+        "trapType": "String Pool vs Heap"
+    },
+    {
+        "id": "static_8",
+        "question": "Which design pattern is used to provide a unified interface to a set of interfaces in a subsystem?",
+        "options": [
+            "Adapter",
+            "Facade",
+            "Bridge",
+            "Decorator"
+        ],
+        "correctAnswer": 1,
+        "type": "THEORY",
+        "explanation": "The Facade pattern defines a higher-level interface that makes the subsystem easier to use, hiding its complexity behind a single class.",
+        "trapType": "Confusion with Adapter"
+    },
+    {
+        "id": "static_9",
+        "question": "In C++, what is the default access specifier for members of a `class`?",
+        "options": [
+            "public",
+            "private",
+            "protected",
+            "internal"
+        ],
+        "correctAnswer": 1,
+        "type": "THEORY",
+        "explanation": "By default, members of a `class` are `private`. In contrast, members of a `struct` are `public` by default.",
+        "trapType": "Class vs Struct defaults"
+    },
+    {
+        "id": "static_10",
+        "question": "What is the primary advantage of a LinkedList over an ArrayList?",
+        "options": [
+            "Faster access to elements",
+            "Type safety",
+            "Dynamic resizing is cheaper (no shifting)",
+            "Less memory usage"
+        ],
+        "correctAnswer": 2,
+        "type": "THEORY",
+        "explanation": "Valid insertions/deletions in a LinkedList are O(1) if the node is known, and do not require shifting elements like an Array/ArrayList. However, access is O(n).",
+        "trapType": "None"
+    }
+]

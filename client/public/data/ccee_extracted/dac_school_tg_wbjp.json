@@ -1,0 +1,2730 @@
+{
+  "category": "wbjp",
+  "module": "dac_school_tg_wbjp",
+  "source": "ccee_pdfs",
+  "totalMcqs": 180,
+  "topicCount": 10,
+  "extractedAt": "2026-01-04T15:14:31.268027",
+  "mcqsByTopic": {
+    "45+ Spring CCEE MCQ": [
+      {
+        "id": "1",
+        "question": "Online Children Adoption Project https://youtu.be/3T5HC2HKyT4?si=bntP78niYH802I7N\npg. 4 contact us on 8007592194 / 9284926333 www.codewitharrays.in\n\nSpring MCQ and Answers Explained\nQ#1. Which annotation is not used to inject dependencies into a Spring bean?\n(",
+        "options": [
+          "@Inject\n(",
+          "@Bean\n(",
+          "@Autowired\n(",
+          "@Resource 4"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "2",
+        "question": "0\nExplanation: ‘@Autowired’, ‘Resource’, and ‘@Inject’ a8ll are used to inject dependencies. They use\ndifferent implementations of post processor classens. They all behave almost identically. The\ni\n‘@Autowired’ and ‘@Inject’ annotation use the ‘",
+        "options": [
+          "utowiredAnnotationBeanPostProcessor’ to inject\ns\ndependencies. ‘@Autowired’ and ‘@Inject’ cayn be used interchangeably to inject dependencies.\na\nFurthermore, the ‘@Resource’ annotation uses the ‘Commo",
+          "An IDE for developing Spring based applications\n(",
+          "A sub-module of Spring framework\n(",
+          "A scripting language of the Spring Framework"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "3",
+        "question": "8\nAnswer: (c) @Qualifier\nn\ni\n.\nExplanation: The @Qualifier annotation is useds with @Autowired in the context of autowiring. All\ny\nother options are the generic stereotype annotations that can be used to specify that the class is a\na\nSpring bean. r\nr\na\nh\nQ#4. Which of the following is INCORRECT about dependency injection in Spring?\nt\ni\nw\ne\nd\no\n(",
+        "options": [
+          "It helps in achieving loose coupling between objects.\nc\n(",
+          "It helps in testing the module by injecting the dependent Mock Objects.\n(",
+          "It increases the scope of code reusability.\n(",
+          "It helps in managing database connections."
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "4",
+        "question": "8\n(c) @Value(\"#{myBean.myProperty ? null}\")\nn\ni\n.\ns\ny\n(d) @Value(\"#{myBean.myProperty ?: 'default'}\")\na\nr\nr\na\nh\nt\ni\nw\nAnswer: (d) @Value(“#{someBean.someProperty ?: ‘default’}”)\ne\nd\no\nExplanation: Using the Elvis operator (?:) , we can shorten the ternary operator syntax for the case\nc\nabove. It is used in the Groovy language and also available in SpEL.\nQ#6. In Spring’s XML configuration file, which XML tag is used to define a bean?\n(",
+        "options": [
+          "<component>\n(",
+          "<service>\n(",
+          "<bean>\n\n(",
+          "<dependency>"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "5",
+        "question": "(c) It specifies the automatic ordering of8 bean initialization\nn\ni\n.\ns\n(d) It creates an object of a Spring bean\ny\na\nr\nr\na\nh\nt\ni\nAnswer: (",
+        "options": [
+          "It marks a bean for awutomatic injection\ne\nd\nExplanation: The @Autowired annotation marks a field, constructor, or setter method for automatic\no\ndependency injection byc Spring. It allows Spring to au",
+          "@AspectJ\n(",
+          "@EnableAop\n\n(",
+          "@EnableAspectJAutoProxy"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "6",
+        "question": "n\n(c) It resolves ambiguity when multipl.ei beans of the same type are present\ns\ny\na\nr\n(d) It marks a class to become ra Spring bean\na\nh\nt\ni\nw\ne\nd\nAnswer: c) It resolves ambiguity when multiple beans of the same type are present\no\nc\nExplanation: The @Qualifier annotation is used to resolve ambiguity when multiple beans of the\nsame type are present.\nQ#10. Which annotation is used to declare a class as a Spring bean in a Java based configuration\nclass?\n(",
+        "options": [
+          "@Service\n(",
+          "@Bean\n(",
+          "@Component\n\n(",
+          "@Autowired"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "7",
+        "question": "n\n(c) <component-scan base-package=\"com..eixample\" />\ns\ny\na\nr\n(d) <scan: component base-packarge=\"com.example\" />\na\nh\nt\ni\nw\ne\nd\nAnswer: (c) <component-scan base-package=”com.example” />\no\nc\nExplanation: In order to enable component scanning in Spring XML configuration, we use the\n<component-scan> tag with the attribute “base-package” to specify the package(s) to scan for\nannotated components.\nQ#12. Which is the incorrect purpose of the @Value annotation in Spring?\n(",
+        "options": [
+          "It is generally used for injecting values into configuration variables\n(",
+          "It supports Spring Expression Language (SpEL)\n(",
+          "It is used to assign default values to variables and method arguments\n\n(",
+          "It is used to inject dependencies as part of autowiring"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "8",
+        "question": "8\nn\n(d) @EnableTransactions i\n.\ns\ny\na\nr\nr\na\nh\nAnswer: (b) @EnableTransactionManagement\nt\ni\nw\nExplanation: Spring Transactioen support is not enabled by default. For that reason, we use the\nd\n@EnableTransactionManagement annotation in a @Configuration annotated class to enable\no\nTransaction related suppcort in Spring. It activates the infrastructure for declarative transaction\nmanagement in Spring. For complete details with examples, you may refer Spring Transaction\nAnnotations.\nQ#14. How can you retrieve a bean from the Spring ApplicationContext using Java code?\n(",
+        "options": [
+          "Using the ApplicationContext.getBean() method\n(",
+          "Using the @Bean annotation\n(",
+          "Using the @Autowired annotation\n\n(",
+          "Using the @Resource annotation"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "9",
+        "question": "(c) Request 8\nn\ni\n.\ns\n(d) Session\ny\na\nr\nr\na\nh\nt\ni\nAnswer: (d) Session w\ne\nd\nExplanation: In the Session scope, the object exists between every request in an HTTP session.\no\nc\nQ#16. How can you define property placeholders in Spring XML configuration?\n(",
+        "options": [
+          "Using the <context:property-placeholder> tag\n(",
+          "Using the <context:value> tag\n(",
+          "Using the <context:property> tag\n(",
+          "Using the <context:placeholder> tag"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "10",
+        "question": "n\nAnswer: (d) @Value\ni\n.\ns\ny\nExplanation: The @Value annotation in Spring supports the Spring expression language (SpEL). It\na\noffers you to evaluate SpEL expressions anrd inject the result into a bean property.\nr\na\nh\nQ#18. If you want to configure a bean for lazy initialization in Spring, how can you configure a bean\nt\ni\nto be initialized lazily? w\ne\nd\no\nc\n(",
+        "options": [
+          "Using the @Lazy annotation\n(",
+          "Setting the \"lazy-init\" attribute to \"true\" in XML configuration\n(",
+          "Using the @PostConstruct annotation\n(",
+          "Setting the \"scope\" attribute to \"lazy\" in XML configuration"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "11",
+        "question": "n\nExplanation: A class should implement the ApplicationListener interface in order to participate in\ni\n.\nSpring’s event handling mechanism. It permits sthe class to receive and handle application events.\ny\na\nQ#20. How can you register an event listerner in Spring XML configuration?\nr\na\nh\nt\ni\nw\n(",
+        "options": [
+          "Using the <listener> tag\ne\nd\no\nc\n(",
+          "Using the <event-listener> tag\n(",
+          "Using the <application-listener> tag\n(",
+          "Using the <bean> tag with the ApplicationListener interface"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "12",
+        "question": "8\nn\n(c) Using the @Priority annotation i\n.\ns\ny\na\nr\n(d) Using the <priority> tag\nr\na\nh\nt\ni\nw\ne\nd\nAnswer: (b) Using the @Order annotation\no\nc\nExplanation: You can use the @Order annotation to define the order of bean initialization in Spring.\nIt allows you to assign a value to indicate the desired order of bean creation. To get complete details\nof @Order annotation with examples, kindly go through ‘@Order Annotaion In Spring‘.\nQ#25. Which is the correct option to enable Spring MVC in a Spring based application?\n(",
+        "options": [
+          "Using the @EnableMvc annotation\n(",
+          "Using the <enable-mvc> tag\n(",
+          "Using the @EnableWebMvc annotation\n\n(",
+          "Using the @EnableSpringMvc annotation"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "13",
+        "question": "8\nn\n(d) @Scheduling i\n.\ns\ny\na\nr\nr\na\nh\nAnswer: (b) @EnableScheduling\nt\ni\nw\nExplanation: The @EnableScheeduling annotation is used to enable Spring scheduling support. It\nd\nactivates the scheduling facility and permits the use of the @Scheduled annotation.\no\nc\nQ#27. If you want to schedule a method to be executed at fixed intervals in Spring, Which\nannotation will you use?\n(",
+        "options": [
+          "@FixedRate\n(",
+          "@FixedDelay\n(",
+          "@Cron\n\n(",
+          "@FixedInterval"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "14",
+        "question": "(c) @beanName.propertyName\nn\ni\n.\ns\ny\n(d) %beanName.propertyName% a\nr\nr\na\nh\nt\ni\nw\nAnswer: (",
+        "options": [
+          "#{beanName.propeertyName}\nd\no\nExplanation: SpEL uses tche #{} syntax to access bean properties.\nQ#29. Which annotation is used to mark a method as an exception handling method in Spring\nMVC?\n(a) @Exce",
+          "@ExceptionHandling\n(",
+          "@HandleException\n\n(",
+          "@ExceptionResolver"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "15",
+        "question": "n\n(c) @ControllerAdvice . i\ns\ny\na\nr\n(d) @EnableGlobalExceptionHandlring\na\nh\nt\ni\nw\ne\nd\nAnswer: (c) @ControllerAdvice\no\nc\nExplanation: To configure global exception handling in Spring MVC, you can use the\n@ControllerAdvice annotation. It offers you to define global exception handling methods\nthroughout multiple controllers.\nQ#31. In Spring JDBC, which method will you use to execute a SQL query that can map the results to\na Java object?\n(",
+        "options": [
+          "executeQueryForObject()\n(",
+          "fetchObject()\n(",
+          "executeForObject()\n\n(",
+          "queryForObject()"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "16",
+        "question": "(c) It handles incoming requests and deleg8ates them to controllers\nn\ni\n.\ns\n(d) It handles security authentication and authorization.\ny\na\nr\nr\na\nh\nt\ni\nAnswer: (c) It handles incoming wrequests and delegates them to controllers\ne\nd\nExplanation: The DispatcherServlet handles incoming requests and delegates them to controllers for\no\nprocessing. c\nQ#33. Which of the following is helpful in passing data from a controller method to a view in Spring\nMVC?\n(",
+        "options": [
+          "HttpRequest object\n(",
+          "HttpServletResponse object\n(",
+          "HttpSession object\n\n(",
+          "ModelAttributes to the Model object"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "17",
+        "question": "(c) Using the @CrossOrigin annotation 8\nn\ni\n.\ns\n(d) Using the @EnableCrossOrigin annotation\ny\na\nr\nr\na\nh\nt\ni\nAnswer: (c) Using the @CrossOriwgin annotation\ne\nd\nExplanation: You can use the @CrossOrigin annotation in order to enable cross-origin resource\no\nsharing (CORS) in Springc MVC . It allows you to specify the allowed origins, headers, and methods\nfor cross-origin requests.\nQ#35. Which of the following is used to hold the model data and view information in Spring MVC?\n(",
+        "options": [
+          "ViewResolver\n(",
+          "Model\n(",
+          "ModelAttribute\n\n(",
+          "ModelAndView"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "18",
+        "question": "(c) @GetMapping(consumes = {\"text/plain\", 8\"application/*\"})\nn\ni\n.\ns\n(d) @GetMapping(\"/\")\ny\na\nr\nr\na\nh\nt\ni\nAnswer: (c) @GetMapping(consuwmes = {“text/plain”, “application/*”})\ne\nd\nExplanation: In the option (c), path value is missing.\no\nc\nQ#37. In Spring Security, which annotation is not enabled by @EnableMethodSecurity by default?\n(",
+        "options": [
+          "@PreAuthorize\n(",
+          "@PostAuthorize\n(",
+          "@PreFilter\n(",
+          "@Secured"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "19",
+        "question": "8\nn\ni\n.\ns\ny\nAnswer: (d) After advice\na\nr\nr\nExplanation: The After advice is executead irrespective of the execution flow of the matched method.\nh\nWhether the method is executed normally or any exception occurs after advice will be executed\nt\ni\nw\neither way.\ne\nd\nQ#39. Which pointcut expression is correct for the below statement?\no\nc\n“Any method with zero or more parameters inside EmpDao class”\n(",
+        "options": [
+          "public * com.dev.dao.EmpDao.*( )\n(",
+          "public * com.dev.dao.*.*(..)\n(",
+          "public * com.dev.dao.EmpDao.*(..)\n(",
+          "public Integer com.dev.dao.EmpDao.*( )"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "20",
+        "question": "n\ni\n.\ns\ny\na\nAnswer: (c) public void updateInvoice(Invorice inv){….}\nr\na\nh\nExplanation: Option (c) has Invoice datatype in it’s parameter.\nt\ni\nw\nQ#41. Which one is the anotheer way of writing below annotation in Spring Security?\nd\no\n@Secured(“ROLE_MANAGER”,”ROLE_ADMIN”)\nc\n(",
+        "options": [
+          "@PreAuthorize(\"ROLE_MANAGER\",\"ROLE_ADMIN\")\n(",
+          "@PreAuthorize(“hasRole(‘ROLE_MANAGER’) or hasRole(‘ROLE_ADMIN’)”)\n(",
+          "@PreAuthorize(“hasRole(‘ROLE_MANAGER’) | hasRole(‘ROLE_ADMIN’)”)\n(",
+          "@PreAuthorize(“role(‘ROLE_MANAGER’) or role(‘ROLE_ADMIN’)”)"
+        ],
+        "correctAnswer": 0,
+        "snippet": "public void updateInvoice(Invorice inv){….}",
+        "type": "OUTPUT",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "21",
+        "question": "0 0 * * 0\n(",
+        "options": [
+          "@monthly\n(",
+          "@weekly\n(",
+          "@yearly\n\n(",
+          "@midnight"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "22",
+        "question": "n\n(c) 0 0 0 24 3 * . i\ns\ny\na\nr\n(d) 0 0 0 24 3 0 r\na\nh\nt\ni\nw\ne\nd\nAnswer: (c) 0 0 0 24 3 *\no\nc\nExplanation: Except option (c), all other options are incorrect in either month, or date, or year place.\nQ#45. In Spring JDBC, what does the NamedParameterJdbcTemplate class offer?\n(",
+        "options": [
+          "Support for executing SQL statements with positional parameters\n(",
+          "Support for executing SQL statements with named parameters\n(",
+          "Support for executing stored procedures\n\n(",
+          "Support for executing batch updates"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 45+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      }
+    ],
+    "31+ Spring CCEE MCQ": [
+      {
+        "id": "1",
+        "question": "What is the primary purpose of the Spring Core framework?",
+        "options": [
+          "To handle web requests and responses.",
+          "To configure and managing beans (objects) within the IoC container.",
+          "To manage database connections with Spring project.",
+          "To replace Core Java application with Spring framework."
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "2",
+        "question": "Which of the following is used to inject dependencies in Spring?\na\nr\nr",
+        "options": [
+          "@Autowired a\nh",
+          "@Inject\nt\ni\nw",
+          "@Resource\ne",
+          "All of the above"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "3",
+        "question": "What does the following Spring configurati.oin achieve?\ns\ny\na\nr\nr\na\n@Configuration\nh\npublic class AppConfig { t\ni\nw\ne\n@Bean d\no\npublic MyBean myBean() {\nc\nreturn new MyBean();\n}\n}",
+        "options": [
+          "Declares a MyBean instance as a Spring bean",
+          "Declares MyBean as a singleton bean",
+          "Declares MyBean as a prototype bean",
+          "Both A and B"
+        ],
+        "correctAnswer": 3,
+        "snippet": "class AppConfig { t\ni\nw\ne\n@Bean d\no\npublic MyBean myBean() {\nc\nreturn new MyBean();\n}",
+        "type": "OUTPUT",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "4",
+        "question": "8\nmy.property=HelloSpring\nn\ni\n.\ns\ny\na\nr\nr\na",
+        "options": [
+          "Property: null\nh",
+          "Property: HelloSpring t\ni\nw",
+          "Property: ${my.property}\ne",
+          "Runtime error"
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "5",
+        "question": "Which annotation is used to define a bean’s scope as prototype in Spring?",
+        "options": [
+          "@Component (“prototype”)",
+          "@Scope(“prototype”)",
+          "@Prototype",
+          "@PrototypeScope"
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "6",
+        "question": "What is Dependency Injection in Spring?",
+        "options": [
+          "The process of manually creating objects",
+          "A technique to achieve loose coupling in applications",
+          "A mechanism to handle transactions",
+          "A method for data access operations"
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "7",
+        "question": "n\nAssuming MyService class is defined as: i\n.\ns\ny\na\nr\nr\npublic class MyService { a\nh\nprivate MyDependency dependency;\nt\ni\nw\ne\nd\npublic void setDependency(MyDependency dependency) {\no\nthis.dependcency = dependency;\n}\npublic void init() {\nSystem.out.println(\"MyService initialized\");\n}\npublic void cleanup() {\nSystem.out.println(\"MyService cleaned up\");\n}\n}",
+        "options": [
+          "MyService initialized",
+          "MyService cleaned up",
+          "Both A and B",
+          "None of the above"
+        ],
+        "correctAnswer": 2,
+        "snippet": "class MyService { a\nh\nprivate MyDependency dependency;\nt\ni\nw\ne\nd\npublic void setDependency(MyDependency dependency) {\no\nthis.dependcency = dependency;\n}",
+        "type": "OUTPUT",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "8",
+        "question": "What does the @Qualifier annotation do in Spring?",
+        "options": [
+          "It sets the default scope of a bean",
+          "It helps in resolving ambiguity when multiple beans of the same type exist",
+          "It initializes the bean after properties are set",
+          "It defines a bean"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "9",
+        "question": "Which statement is true about Spring profiles?",
+        "options": [
+          "We can define custom profiles for different environments.",
+          "We can define custom profiles for Development, Testing, and Production only.",
+          "There is only one default Spring profile.",
+          "Spring profiles are related to bean scopes."
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "10",
+        "question": "Which Spring annotation is used to mark a class that provides business logic\nfunctionalities?",
+        "options": [
+          "@Repository",
+          "@Component",
+          "@Service",
+          "@Controller"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "11",
+        "question": "What is the purpose of the @Transactional annotation in Spring?",
+        "options": [
+          "To define a custom transaction scope for a bean.",
+          "To define transactional behavior for database operations.",
+          "To manage caching of data.",
+          "To implement security checks on method calls."
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "12",
+        "question": "How can you configure a custom exception handler in Spring MVC?",
+        "options": [
+          "By creating a custom bean that handles exceptions.",
+          "Spring doesn’t support custom exception handling.",
+          "By defining error pages in the web application.",
+          "By using the @ControllerAdvice annotation on a class with exception handler methods."
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "13",
+        "question": "What is the purpose of the @ControllerAdvice annotation in Spring?",
+        "options": [
+          "To define custom controllers for handling web requests.",
+          "To define global exception handling for controllers.",
+          "To manage user authentication and authorization.",
+          "To implement security checks on method calls."
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "14",
+        "question": "How can we map an incoming request URL to a specific controller method in Spring MVC?\nd\no\nc",
+        "options": [
+          "By manually parsing the request URL in the controller.",
+          "Spring automatically maps URLs to controllers based on naming conventions.",
+          "We need to configure URL mappings in an XML configuration file.",
+          "By using the @RequestMapping annotation on the controller method."
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "15",
+        "question": "What is the role of the Model object in Spring MVC?",
+        "options": [
+          "To handle web request and response data.",
+          "To hold data that needs to be passed from the controller to the view layer.",
+          "To manage the lifecycle of Spring MVC beans.",
+          "To define validation rules for user input."
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "16",
+        "question": "Which statement is correct about @Controller and @RestController annotations?",
+        "options": [
+          "They serve the same purpose, there is no difference.",
+          "@Controller handles both request and response data, while @RestController assumes JSON or\nserialized data for responses.",
+          "@RestController is for handling web forms, and @Controller is for REST APIs.",
+          "Spring MVC only uses @Controller."
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "17",
+        "question": "What is the purpose of the Spring IoC container?\nc",
+        "options": [
+          "To perform Aspect-Oriented Programming",
+          "To provide JDBC operations",
+          "To manage the lifecycle of beans",
+          "To handle MVC operations"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "18",
+        "question": "What is the purpose of the @Configuration annotation in Spring?",
+        "options": [
+          "To mark a class as a Spring configuration class",
+          "To specify a bean’s scope",
+          "To declare an aspect",
+          "To enable component scanning"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "19",
+        "question": "What is the role of the @ComponentScan annotation in Spring?",
+        "options": [
+          "To define a Spring bean",
+          "To configure a Spring application context",
+          "To enable component scanning in specified packages",
+          "To specify a bean’s scope"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "20",
+        "question": "Which of the following can be used faor dependency management in Spring Boot project?\nr\nr\na",
+        "options": [
+          "Maven\nh",
+          "Gradle t\ni\nw",
+          "Ant\ne",
+          "Both A and B d"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "21",
+        "question": "Which of the following statements is true about dependency management in Spring Boot?",
+        "options": [
+          "Spring Boot uses a proprietary dependency management system.",
+          "Spring Boot relies on third-party tools like Maven and Gradle for dependency management.",
+          "Spring Boot does not support dependency management.",
+          "Spring Boot uses XML-based configuration for dependency management."
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "22",
+        "question": "Which annotation in Spring Boot can be used to automatically manage dependencies?",
+        "options": [
+          "@Component",
+          "@SpringBootApplication",
+          "@EnableAutoConfiguration",
+          "@Autowired"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 31+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      }
+    ],
+    "60+ Servlet and JSP CCEE MCQ": [
+      {
+        "id": "1",
+        "question": "How is the dynamic interception of requests and responses to transform the\ninformation done?",
+        "options": [
+          "servlet container",
+          "servlet config",
+          "servlet context",
+          "servlet filter"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "2",
+        "question": "What type of servlets usee these methods doGet(), doPost(),doHead, doDelete(),\nd\ndoTrace()?\no\nc",
+        "options": [
+          "Genereic Servlets",
+          "HttpServlets",
+          "All of the above",
+          "None of the above"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "3",
+        "question": "When destroy() method of a filterr is called?\na\nh",
+        "options": [
+          "The destroy() method is called ontly once at the end of the life cycle of a filter\ni\nw",
+          "The destroy() method is calleed after the filter has executed doFilter method\nd\no",
+          "The destroy() method is called only once at the begining of the life cycle of a filter\nc",
+          "The destroyer() method is called after the filter has executed"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "4",
+        "question": "Web server is used for loading the init() method of servlet.",
+        "options": [
+          "True",
+          "False",
+          "none",
+          "all"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "5",
+        "question": "Servlets handle multiple simultaneous requests by using threads.",
+        "options": [
+          "True",
+          "False",
+          "none",
+          "all"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "6",
+        "question": "The sendRedirect() method oif HttpServletResponse interface can be used to\nw\nredirect response to anoether resource, it may be servlet, jsp or html file\nd\no",
+        "options": [
+          "True c",
+          "False",
+          "none",
+          "all"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "7",
+        "question": "13. Which HTTP Request method is non-idempote8nt?\nn",
+        "options": [
+          "GET i\n.\ns\ny",
+          "POST\na\nr\nr",
+          "Both A & B a\nh",
+          "None of the above t"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "8",
+        "question": "Which object is created by the web container at time of deploying the project?",
+        "options": [
+          "ServletConfig",
+          "ServletContext",
+          "Both A & B",
+          "None of the above"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "9",
+        "question": "What is the lifecycle of a servlet?",
+        "options": [
+          "Servlet class is loaded",
+          "Servlet instance is created",
+          "init,Service,destroy method is invoked",
+          "All mentioned above"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "10",
+        "question": "Which are the examples of Applicartion Server?\nr\na\nh",
+        "options": [
+          "Apache\nt\ni\nw",
+          "Tomcat e\nd",
+          "JBoss o\nc",
+          "Weblogic"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "11",
+        "question": "How many techniques are used in Session Tracking?",
+        "options": [
+          "4",
+          "3",
+          "2",
+          "5"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "12",
+        "question": "In HTTP Request method Get request is secured because data is exposed in URL\nbar",
+        "options": [
+          "True",
+          "False",
+          "none",
+          "all"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "13",
+        "question": "Servlet technology is used to creaate web application\nh\nt",
+        "options": [
+          "True w i\ne",
+          "False d\no",
+          "none c",
+          "all"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "14",
+        "question": "Which method is used to specify before any lines that uses the PintWriter?",
+        "options": [
+          "setPageType()",
+          "setContextType()",
+          "setContentType()",
+          "setResponseType()"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "15",
+        "question": "What are functions of Servlet container?",
+        "options": [
+          "Lifecycle management",
+          "Communication Support",
+          "Multithreading Support",
+          "All of the above"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "16",
+        "question": "Which methods are used to ibind the objects on HttpSession instance and get\nw\nthe objects? e\nd\no",
+        "options": [
+          "setAttribute c",
+          "getAttribute",
+          "Both A & B",
+          "None of the above"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "17",
+        "question": "The life cycle of a servlet is managred by\na\nh",
+        "options": [
+          "servlet context t\ni\nw\ne",
+          "servlet container\nd\no",
+          "the supporting protocol (such as http or https)\nc",
+          "All of the above"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "18",
+        "question": "Which are the session tracking techniques? i. URL rewriting ii. Using session\nr\nr\nobject iii.Using response object aiv. Using hidden fields v. Using cookies vi. Using\nh\nservlet object\nt\ni\nw",
+        "options": [
+          "i, ii, iii, vi e\nd\no",
+          "i, ii, iv, v\nc",
+          "i, vi, iii, v",
+          "i, ii, iii, v"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "19",
+        "question": "The values of <servlet-name> and <servlet-class> in web.xml file",
+        "options": [
+          "must be same",
+          "must not be same",
+          "may be same",
+          "None of the above"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "20",
+        "question": "Which one is the correct order of phases in JSP life cycle?",
+        "options": [
+          "Initialization, Cleanup, Compilation, Execution",
+          "Initialization, Compilation, Cleanup, Execution",
+          "Compilation, Initialization, Execution, Cleanup",
+          "Cleanup, Compilation, Initialization, Execution"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "21",
+        "question": "Which attribute specifies a JSP page that should process any exceptions thrown\nh\nbut not caught in the currentt page?\ni\nw\ne",
+        "options": [
+          "The ErrorPage Attribute d\no",
+          "The IsErrorPage Attribcute",
+          "Both A & B",
+          "None of the above"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "22",
+        "question": "JSPs eventually are compiled ihnto Java servlets, you can do as much with JSPs\nt\ni\nas you can do with Java sewrvlets.\ne\nd",
+        "options": [
+          "True\no\nc",
+          "False",
+          "none",
+          "all"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "23",
+        "question": "Which tag is used to execute java source conde in JSP?\ni\n.\ns",
+        "options": [
+          "Declaration Tag y\na\nr",
+          "Scriptlet tag r\na\nh",
+          "Expression tag\nt\ni\nw",
+          "None of the above"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "24",
+        "question": "A JSP page consists of which tags?",
+        "options": [
+          "HTML tags",
+          "JSP tags",
+          "Both A & B",
+          "None of the above"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "25",
+        "question": "Which packages does a JSP API consist of?",
+        "options": [
+          "javax.servlet.jsp",
+          "java.servlet",
+          "javax.servlet.jsp.tagext",
+          "Both A & C"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "26",
+        "question": "The difference between Servlets anrd JSP is the …………….\nr\na\nh",
+        "options": [
+          "translation\nt\ni\nw",
+          "compilation e\nd",
+          "syntax o\nc",
+          "Both A and B"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "27",
+        "question": "Which of the following are the valid scopes in JSP?",
+        "options": [
+          "request, page, session, application",
+          "request, page, session, global",
+          "response, page, session, application",
+          "request, page, context, application"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "28",
+        "question": "Why DB connections are not writtern directly in JSPs?\nr\na\nh",
+        "options": [
+          "Response is slow\nt\ni\nw",
+          "Not a standard J2EE architeecture\nd",
+          "Load Balancing is not poossible\nc",
+          "Both B and C"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "29",
+        "question": "Which is not a directive?",
+        "options": [
+          "include",
+          "page",
+          "export",
+          "taglib"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "30",
+        "question": "Which http method send by browser that asks the server to get the page only?",
+        "options": [
+          "get",
+          "option",
+          "put",
+          "post"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "31",
+        "question": "_jspService() method of HttpJspPage class should not be overridden.",
+        "options": [
+          "True",
+          "False",
+          "none",
+          "all"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "32",
+        "question": "Which is not a directive?",
+        "options": [
+          "include",
+          "page",
+          "export",
+          "useBean"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "33",
+        "question": "To resolve Facelets views we configurey:\na\nr\nr",
+        "options": [
+          "ViewFacelets a\nh",
+          "ViewResolver t\ni\nw\ne",
+          "View-resolver\nd\no",
+          "View_Resolver"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "34",
+        "question": "File extension of a view state’s name which is by default loaded by facelet page.",
+        "options": [
+          ".xml",
+          ".hbm.xml",
+          ".xhtml",
+          "none of the mentioned"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "35",
+        "question": "Navigation in traditional JSF applications is handled by:",
+        "options": [
+          "linking directly linking to a resource",
+          "commandLink",
+          "invoking an action",
+          "all of the mentioned"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "36",
+        "question": "Component which additionally prorvides a pop-up date picker control for its\nr\na\nenclosed input field.\nh\nt\ni\nw",
+        "options": [
+          "clientDateValidator\ne\nd",
+          "clientValidator\no\nc",
+          "dateValidator",
+          "validator"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "37",
+        "question": "Component which encloses command button.",
+        "options": [
+          "validateAll",
+          "validateAllClick",
+          "validateAllInClick",
+          "validateAllOnClick"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Servlet and JSP CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      }
+    ],
+    "38 Spring and Hibernet CCEE MCQ": [
+      {
+        "id": "1",
+        "question": "A1. B is correct. Option ‘A’ and ‘D’ has syntactical erro8rs. Option ‘C’ has PrototypeScope which is not\na valid attribute. Hence B is correct. n\ni\n.\ns\nQ2. Spring framework offers us multiple waysy to define the scope of a bean. Which one of the\na\nfollowing is an incorrect way of defining a ‘request’ scope?\nr\nr\na\nh\nt\ni\nw\n(",
+        "options": [
+          "@RequestScope\ne\npublic class Prodduct {\no\n// some properties & methods\nc\n}\n(",
+          "<bean id=\"product\" class=\"com.test.Product\" Scope=\"request\"/>\n(",
+          "@Scope(\"request\")\npublic class Product {\n// some properties & methods\n}\n(",
+          "<bean id=\"product\" class=\"com.test.Product\" scope=\"request\"/>"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 38 Spring and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "2",
+        "question": "it provides interfaces.\nn\ni\n.\nQ4. Which interface out of the following optionss will you use to perform destruction of beans in the\ny\ncontext of the spring life cycle methods?\na\nr\nr\na\nh\nt\n(",
+        "options": [
+          "InitializingBean i\nw\ne\nd\n(",
+          "PostConstruct o\nc\n(",
+          "DisposableBean\n(",
+          "PreDestroy"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 38 Spring and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "3",
+        "question": "entities in her application: Student & Address. She is im8plementing a relation where One student can\nhave multiple addresses and one address can acconmmodate multiple students in a bidirectional\ni\nrelationship. Mary doesn’t want hibernate to cre",
+        "options": [
+          "te one additional table. Which of the following\ns\nannotation and its attribute will she use to fulyfill the given requirement?\na\nr\nr\na\nh\n(A) @ManyToMany and mappedtBy\ni\nw\ne\nd\n(",
+          "@ManyToOne and mappedBy\no\nc\n(",
+          "@OneToMany and MappedBy\n(",
+          "@OneToOne and MappedBy"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 38 Spring and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "4",
+        "question": "(C) @Column, @Entity, @Table 8\nn\ni\n.\ns\n(D) @Id, @GeneratedValue\ny\na\nr\nr\na\nh\nt\ni\nA15. A is correct. In order to crewate a table in the database, @Entity & @Id annotations are\ne\nmandatory, otherwise JPA will throw an exception.\nd\no\nQ16. Consider the followcing bean definition :\n<bean id=\"test\" class=\"com.dev.test.TestBean\" />\nWhich of the below bean scope is applied in this bean?\n(",
+        "options": [
+          "Session\n(",
+          "Request\n\n(",
+          "Prototype\n(",
+          "Singleton"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 38 Spring and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "5",
+        "question": "n\ni\n.\ns\ny\na\nA18. D is correct. There are three ways to rdefine bean life cycle methods: Annotation or XML\nr\nconfiguration or Spring Interfaces. a\nh\nt\ni\nQ19. Which option is incorrect awbout @Component annotation?\ne\nd\no\nc\n(",
+        "options": [
+          "It scans our application for classes annotated with @Component\n(",
+          "It instantiates classes whenever required\n(",
+          "It supports Spring's auto-detection mechanism\n(",
+          "It doesn't inject any specified dependencies"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 38 Spring and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "6",
+        "question": "@Autowired\nn\n@Qualifier(\"permanentAddress\")\ni\n.\ns\nprivate Address address;\ny\n} a\nr\nr\na\nh\nt\ni\nw\ne\nA22. D is correct. Spring condtainer by default considers bean name same as the class name, but with\no\nthe first letter in lower case. In order to get more idea on @Qualifier, visit the article on @Qualifier\nc\nAnnotation.\nQ23. Which option is true for the role of BeanFactory in Spring Framework:\n(",
+        "options": [
+          "BeanFactory provides the configuration framework and basic functionality\n(",
+          "BeanFactory provides access to messages in i18n-style\n(",
+          "BeanFactory provides access to resources, such as URLs and files\n\n(",
+          "BeanFactory provides event propagation to beans implementing the ApplicationLis"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 38 Spring and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "7",
+        "question": "(D) When building most applications in a J2EE-environment, the best option is to us\nn\ni\n.\ns\ny\na\nr\nr\na\nA24. B is correct. According to Sprinhg Framework documentation, option B is correct. For more\nt\ndetails, kindly refer the Spring Owfficiial Documentation.\ne\nQ25. @SpringBootApplicatiodn annotation is a combination of three annotations. Which one of the\no\ngiven option is not the part of a combination of three annotations?\nc\n(",
+        "options": [
+          "@SpringBootConfiguration\n(",
+          "@EnableAutoConfiguration\n(",
+          "@Configuration\n(",
+          "@ComponentScan"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 38 Spring and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "8",
+        "question": "8\nn\n(C) We can use the detach() method to detach an entity from the persistence context\ni\n.\ns\ny\na\n(D) We can use the find() methodr to retrieve an object from the database.\nr\na\nh\nt\ni\nw\ne\nd\nA27. B is correct. If we jusot need the reference to the entity, we can use the getReference() method,\nc\nnot the findReference().\nQ28. In order to access entity attributes, we implement access strategies in Hibernate. Which type/(s)\nof Access strategy/(ies) is allowed in Hibernate?\n(",
+        "options": [
+          "field-based access\n(",
+          "property-based access\n(",
+          "class-based access\n\n(",
+          "field-based access & property-based access"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 38 Spring and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "9",
+        "question": "(C) @Modifying 8\nn\ni\n.\ns\n(D) @Modified\ny\na\nr\nr\na\nh\nt\ni\nA29. C is correct. Only @Modifywing annotation is available. All others are incorrect.\ne\nd\nQ30. Which option is incorrect about Spring Framework?\no\nc\n(",
+        "options": [
+          "It is a lightweight framework.\n(",
+          "Spring applications are loosely coupled because of dependency injection.\n(",
+          "It offers only Java-based annotations for configuration options.\n(",
+          "It provides declarative support for caching, validation, transaction, and forma"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 38 Spring and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "10",
+        "question": "n\nQ32. What is the purpose of the BeanFactory interface in Spring?\ni\n.\ns\ny\na\nr\n(",
+        "options": [
+          "To manage the lifecycle of rbeans\na\nh\nt\ni\nw\n(",
+          "To provide a simple way to retrieve bean instances\ne\nd\no\nc\n(",
+          "To define beans and their dependencies\n(",
+          "To handle transaction management"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 38 Spring and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "11",
+        "question": "(B) To inject dependencies into a bean 8\nn\ni\n.\ns\n(C) To define the scope of a bean\ny\na\nr\nr\na\n(D) To define the lifecycle of a bean\nh\nt\ni\nw\ne\nd\no\nA34. B is correct. The @cAutowired annotation in Spring is used to inject dependencies into a bean,\neither through constructor injection, setter injection, or field injection.\nQ35. What is Inversion of Control in Spring?\n(",
+        "options": [
+          "A design pattern that allows for greater control over an application's objects\n(",
+          "A technique for delegating control of the application to a central authority\n(",
+          "A method for controlling an application's flow of control from the inside out\n\n(",
+          "The term 'Inversion of Control' is not used in Spring"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 38 Spring and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "12",
+        "question": "(C) Second-level cache 8\nn\ni\n.\ns\n(D) Collection cache\ny\na\nr\nr\na\nh\nt\ni\nA36. C is correct. The first-level wcache is related to a single session and is used to cache data within\ne\nthat session only. The second-level cache in Hibernate caches data across different sessions. It stores\nd\nthe cached data in a shareod cache region. It allows multiple sessions to access the same data without\nc\nhitting the database. The query cache caches the results of queries, and the collection cache caches\nthe persistent collections.\nQ37. You are working in a Spring Boot application that needs to connect to a relational database.\nYou want to configure the data source properties, such as URL, username, and password, in the\napplication.properties file. Which of the following is the correct way to configure the data source\nproperties in the application.properties file for an H2 in-memory database?\n(",
+        "options": [
+          "jdbc.url=jdbc:h2:mem:testdb\njdbc.username=admin\njdbc.password=admin123\n(",
+          "db.datasource.url=jdbc:h2:mem:testdb\ndb.datasource.username=admin\ndb.datasource.password=admin123\n(",
+          "spring.db.datasource.url=jdbc:h2:mem:testdb\nspring.db.datasource.username=admin\nspring.db.datasource.password=admin123\n(",
+          "spring.datasource.url=jdbc:h2:mem:testdb"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 38 Spring and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "13",
+        "question": "identify data source-related properties.\nn\ni\n.\nQ38. In a spring application there are four classses some code segments are defined in the given\ny\noptions select the one which would contain the business logic.\na\nr\nr\na\nh\nt\n(",
+        "options": [
+          "i\nw\npublic class ProductController {\ne\n@PostMapping(\"/prdoduct\")\no\npublic Productc createProduct(@RequestBody Product product) {\nreturn productService.saveProduct(product);\n}\n}\n(",
+          "public class ProductService {\npublic Product saveProduct(Product product) {\nif (product.getPrice() > 0) {\nreturn productRepository.save(product);\n} else {\nthrow new IllegalArgumentException(\"Price mus",
+          "public interface ProductRepository extends JpaRepository<Product, Long> {\n// Data access methods\n}\n(",
+          "public class ProductValidator {"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 38 Spring and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      }
+    ],
+    "28 SpringCore CCEE MCQ": [
+      {
+        "id": "1",
+        "question": "Online Children Adoption Project https://youtu.be/3T5HC2HKyT4?si=bntP78niYH802I7N\npg. 4 contact us on 8007592194 / 9284926333 www.codewitharrays.in\n\nSpring Core MCQ and Answers Explained\nQ#1. Which one is incorrect about the Spring Core module?\n(",
+        "options": [
+          "Using Spring Core module, we can develop a standalone application.\n(",
+          "The Spring Core module can be used with other modules like Spring MVC, Spring A\n(",
+          "The Spring Core module provides Spring Containers.\n(",
+          "To develop a Spring MVC application, the Spring Core m4odule is not required."
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 28 SpringCore CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "2",
+        "question": "8\nExplanation: The Spring Core module is always requ ired to develop any type of Spring based\nn\napplication. It provides Spring Containers which arie always required in order to work with a Spring\n.\ns\nbased application. y\na\nr\nQ#2. Which type of dependency can a Sprring Container inject?\na\nh\nt\ni\nw\ne\n(",
+        "options": [
+          "Primitive Type\nd\no\nc\n(",
+          "Collection Type\n(",
+          "Reference Type (User defined Type)\n(",
+          "All of the above"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 28 SpringCore CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "3",
+        "question": "0\nWhat will be the correct order of execution of compon8ents?\nn\ni\n.\ns\ny\n(",
+        "options": [
+          "A B C D a\nr\nr\na\nh\n(",
+          "C A D B t\ni\nw\ne\nd\n(",
+          "C A B D\no\nc\n(",
+          "B D A C"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 28 SpringCore CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "4",
+        "question": "context of Spring dependency injection, which one is correct?\nn\ni\n.\ns\ny\na\nr\nr\na\nh\nt\ni\nw\ne\nd\no\nc\n(",
+        "options": [
+          "The Engine will be a target class, while Vehicle will be a dependent class.\n(",
+          "The dependency injection concept can't be applied between the Vehicle and Engin\n(",
+          "The Vehicle will be a target class, while Engine will be a dependent class.\n\n(",
+          "None of the above."
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 28 SpringCore CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "5",
+        "question": "(b) It supports dependency injection and autowiring.\nn\ni\n.\ns\ny\n(c) It manages the bean life cyclae.\nr\nr\na\nh\n(d) All of the above t\ni\nw\ne\nd\no\nc\nAnswer: (d) All of the above\nExplanation: The Spring container is a software program that manages the whole life cycle of a\nbean from its creation to destruction including dependency injection and autowiring.\nQ#9. Which statement is incorrect about Spring Bean?\n(",
+        "options": [
+          "A Java class whose object is created and managed by Spring container is called\n(",
+          "Spring bean can be a pre-defined or user-defined or third party supplied class\n(",
+          "Spring bean can be a POJO class or component class or Java bean class.\n\n(",
+          "Spring bean can be any Java class or interface."
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 28 SpringCore CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "6",
+        "question": "n\n@Component i\n.\ns\npublic class ContractEmployee extends Employee { ..... }\ny\na\nr\nr\na\n(b) <bean id=\"pe\" class=\"com.dev.entity.PermanentEmployee\" primary=\"true\"/>\nh\n<bean id=\"ce\" class=\"ctom.dev.entity.ContractEmployee\" />\ni\nw\ne\nd\n(c) public class XYZCompany{\no\nc\n@Autowired\n@Primary(\"contractEmployee\")\nprivate Employee employee;\n}\n(d) public class XYZCompany{\n@Autowired\n@Qualifier(\"contractEmployee\")\nprivate Employee employee;\n}\nAnswer: (c)\n\nExplanation: Option (c) has an incorrect use of @Primary annotation. In this situation, this can be\nused in sub-classes definitions.\nQ#11. What is the purpose of the @PreDestroy annotation in Spring?\n(",
+        "options": [
+          "It is used to indicate a method that should be called after bean initialization\n(",
+          "It is used to specify the order of bean initialization.\n(",
+          "It is used to indicate a method that should be called before destroying the bea\n(",
+          "It is used to specify a method that should be called a4fter constructing the pro"
+        ],
+        "correctAnswer": 0,
+        "snippet": "class XYZCompany{\no\nc\n@Autowired\n@Primary(\"contractEmployee\")\nprivate Employee employee;\n}",
+        "type": "OUTPUT",
+        "explanation": "From 28 SpringCore CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "7",
+        "question": "8\nExplanation: The @PreDestroy annotation is usedn to mark a method that should be invoked before\ni\ndestroying the bean. .\ns\ny\na\nQ#12. Which one of the following is an incorrect use of the @Qualifier annotation in Spring?\nr\nr\na\nh\nt\ni\nw\n(",
+        "options": [
+          "public class XYZCompany{\ne\nprivate Employee employee;\nd\no\nc\n@Autowired\npublic XYZCompany(@Qualifier(\"contractEmployee\") Employee employee){\nthis.employee=employee;\n}\n}\n(",
+          "public class XYZCompany{\n@Autowired\n@Qualifier(\"contractEmployee\")\nprivate Employee employee;\n}\n(",
+          "public class XYZCompany{\n\nprivate Employee employee;\n@Autowired\n@Qualifier(\"contractEmployee\")\npublic XYZCompany(Employee employee){\nthis.employee=employee;\n}\n}\n(",
+          "public class XYZCompany{"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 28 SpringCore CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "8",
+        "question": "8\nn\nAnswer: (c)\ni\n.\nExplanation: If we have @Autowired annotatiosn at the constructor level, we can use @Qualifier\ny\nannotation at the parameter of the construactor, but not above the constructor. You may\nr\nrefer autowiring in spring to get more idera on this.\na\nh\nQ#13. Spring provides multiple wayts to define the scope of a bean. Which one of the following is\ni\nw\nnot the correct way of defining a ‘session’ scope?\ne\nd\no\nc\n(",
+        "options": [
+          "@SessionScope\npublic class Employee{\n// some properties & methods\n}\n(",
+          "<bean id=\"employee\" class=\"com.test.Employee\" Scope=\"session\"/>\n(",
+          "@Scope(\"session\")\npublic class Employee{\n// some properties & methods\n}\n\n(",
+          "<bean id=\"employee\" class=\"com.test.Employee\" scope=\"session\"/>"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 28 SpringCore CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "9",
+        "question": "(c) By using the @Autowired and @Bean anno8tation on a field.\nn\ni\n.\ns\n(d) By using the @Autowired and @Bean annotation on a method.\ny\na\nr\nr\na\nh\nt\ni\nAnswer: (",
+        "options": [
+          "By using the @Beawn annotation on a method in a @Configuration class.\ne\nd\nExplanation: The @Bean annotation is used to define a bean in Spring while using Java-based\no\nconfiguration. It is genercally ",
+          "By using @Component annotation in a Java class.\n(",
+          "By using @Configuration annotation in a Java class and @Bean annotation in a me\n\n(",
+          "All of the above"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 28 SpringCore CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "10",
+        "question": "n\ni\n(b) 1 and 2 and 3 .\ns\ny\na\nr\n(c) 1 and 2 and 4 r\na\nh\nt\ni\nw\n(d) All places\ne\nd\no\nc\nAnswer: (d) All places\nExplanation: We can apply @Autowired annotation in field, setter method, parameterized\nconstructor, and normal method. Here, the method signature of the normal method must be same\nas the setter method.\nQ#17. Consider the following bean definition:\n<bean id=\"product\" class=\"com.dev.test.ProductBean\"/>\nWhich of the below bean scope is applied in this bean?\n\n(",
+        "options": [
+          "Session\n(",
+          "Request\n(",
+          "Prototype\n(",
+          "Singleton"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 28 SpringCore CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "11",
+        "question": "n\ni\n(C) @BeforeDestroy .\ns\ny\na\nr\n(D) @AfterConstruct r\na\nh\nt\ni\nw\ne\nd\nAnswer: (b) @PostConstruct\no\nc\nExplanation: PostConstructs means after constructing the properties of the class. Hence\n@PostConstruct is the correct answer. For complete details, kindly go through the separate detailed\narticle on Spring Bean Life Cycle methods.\nQ#21. What is incorrect about the BeanFactory in Spring?\n(",
+        "options": [
+          "It is an interface, also known as a Spring container.\n(",
+          "It is used to manage the life cycle of a spring bean.\n(",
+          "It is used to handle HTTP requests in a Spring MVC application.\n\n(",
+          "It is responsible for creating and managing Spring beans."
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 28 SpringCore CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "12",
+        "question": "(c) The BeanFactory supports XML-based con8figuration, while ApplicationContext supp\nn\ni\n.\ns\n(d) The ApplicationContext is used for testing purposes, while BeanFactory is used\ny\na\nr\nr\na\nh\nt\ni\nw\nAnswer: (d) The ApplicationeContext is used for testing purposes, while BeanFactory is used in\nproduction environments.d\no\nc\nExplanation: Since ApplicationConext provides more advanced features than the BeanFactory, it is\nmost often used in production environments.\nQ#23. What is the purpose of the BeanPostProcessor interface in Spring?\n(",
+        "options": [
+          "It is used to define a custom scope for a bean.\n(",
+          "It is responsible for initializing beans after instantiation.\n(",
+          "It is used to customize the bean creation process.\n\n(",
+          "It is responsible for managing life cycle of beans."
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 28 SpringCore CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "13",
+        "question": "n\n(c) <context:config-annotation/> . i\ns\ny\na\nr\n(d) <context:component-scan/> r\na\nh\nt\ni\nw\ne\nd\nAnswer: (b) <context:annotation-config/>\no\nc\nExplanation: <context: annotation-config> enables functioning of some annotations such as\n@Required, @Autowired, @PostConstruct, @PreDestroy, @Resource.\nQ#25. How can you define a bean’s scope in XML configuration?\n(",
+        "options": [
+          "By using the \"scope\" attribute of the <bean> element.\n(",
+          "By using the @Scope annotation on a bean class.\n\n(",
+          "By using the <scope> element in XML configuration.\n(",
+          "By using all of the approaches mentioned above"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 28 SpringCore CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "14",
+        "question": "(b) By using the @PostConstruct and @PrneDestroy annotations.\ni\n.\ns\ny\na\n(c) By using the <init-method> and <destroy-method> elements in XML configuration.\nr\nr\na\nh\n(d) By using the @Bean anntotation with initMethod and destroyMethod attributes.\ni\nw\ne\nd\no\nc\nAnswer: (",
+        "options": [
+          "By using the “init-method” and “destroy-method” attributes of the <bean>\nelement.\nExplanation: In XML configuration, a bean’s initialization and destruction methods can be defined\nusing the “init-meth",
+          "Spring MVC\n\n(",
+          "Spring Boot\n(",
+          "Spring Framework"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 28 SpringCore CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      }
+    ],
+    "50+ Hibernet CCEE MCQ": [
+      {
+        "id": "1",
+        "question": "are incorrect, while 3 is correct.\ne\nd\no\nQ#2. Which statement is incorrect about the @Entity annotation in Hibernate?\nc",
+        "options": [
+          "It is a foundation for mapping Java objects to relational database tables.",
+          "It marks a class as an entity bean.",
+          "An entity annotated class instance corresponds to a single row in the mapped dat",
+          "It creates a new database."
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "2",
+        "question": "Which of the following is the correct option?\nn\ni\n.\ns\ny\na",
+        "options": [
+          "Statements 1 & 3 are correctr\nr\na",
+          "All statements are correct\nh",
+          "Statements 2 & 3 are intcorrect\ni\nw",
+          "All statements are incorrect"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "3",
+        "question": "B) All statements are correct\nn\nC) Statements 1 & 3 are incorrect\ni\n.\nD) All statements are incorrect s\ny\na\nr\nr\na\nh\nt\nA#6: C) Statements 1 & 3 are iwnciorrect\ne\nExplanation: Hibernate Quedry Language (HQL) is not case-sensitive except for Java class and\no\nvariable names. HQL allows for SQL-like queries to be written. Hibernate supports native SQL queries\nc\nthrough the createSQLQuery() method. Therefore, statements 1 & 3 are incorrect, while 2 is correct.\nQ#7. Which of the following is used to specify the primary key of an entity?",
+        "options": [
+          "@Id",
+          "@PrimaryKey",
+          "@Primary",
+          "@Key"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "4",
+        "question": "Which of the following is the correct option?\nn\ni\n.\ns\ny\na",
+        "options": [
+          "Statements 1 & 2 are correctr\nr\na",
+          "All statements are incorrect\nh",
+          "Statements 2 & 3 are intcorrect\ni\nw",
+          "All statements are correct"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "5",
+        "question": "The @Table annotation specifies the table name for an entity.\nWhich of the following is the correct option?",
+        "options": [
+          "Statements 1 & 3 are correct",
+          "All statements are correct",
+          "Statements 2 & 3 are incorrect",
+          "All statements are incorrect"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "6",
+        "question": "D) session.createNativeQuery()\nn\ni\n.\ns\ny\na\nr\nr\na\nA#16:",
+        "options": [
+          "session.createQuery( )\nh\nt\ni\nExplanation: The session.createwQuery() method is used to write HQL (Hibernate Query Language)\ne\nqueries in Hibernate.\nd\no\nQ#17. Consider the folclowing entity class. Whic",
+          "@MappedColumn",
+          "@Column",
+          "@Field"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "7",
+        "question": "B) Using @Timestamped annotation\nn\nC) Using @Temporal(TimestampType) i\n.\ns\nD) Using @CreationTimestamp and @UpydateTimestamp\na\nr\nr\na\nh\nt\ni\nw\nA#21: D) Using @CreationTimestamp and @UpdateTimestamp\ne\nd\nExplanation: The @CreatioonTimestamp and @UpdateTimestamp annotations are used to\nautomatically timestampc an entity on creation and update.\nQ#22. Which of the following methods would you use to retrieve an entity by its primary key\nusing the Criteria API?",
+        "options": [
+          "criteria.createCriteria()",
+          "criteria.add(Restrictions.eq(\"id\", id))",
+          "criteria.createAlias(\"id\", \"primaryKey\")",
+          "criteria.addOrder(Order.asc(\"id\"))"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "8",
+        "question": "8\nExplanation: In order to create a table in the database, @Entity & @Id annotations are mandatory,\nn\notherwise Hibernate will throw an exception.\ni\n.\ns\ny\nQ#24. Alice is worling in a Hibernate project. She needs to map a List of values in her entity.\na\nWhich annotation should she use? r\nr\na\nh\nt\ni\nw",
+        "options": [
+          "@OneToMany\ne",
+          "@ElementCollectiodn\no",
+          "@ManyToMany\nc",
+          "@Embedded"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "9",
+        "question": "B) Specifying cache provider in the config8uration file\nC) Annotating entities with @Cacheable n\ni\nD) Using session.clear() method to cle.ar the cache manually\ns\ny\na\nr\nr\na\nh\nA#26: D) Using session.clear() metthod to clear the cache manually\ni\nw\ne\nExplanation: Steps A, B, and C are necessary to configure the second-level cache, but using\nd\nsession.clear() to clear theo cache manually is not a necessary step for configuring it.\nc\nQ#27. Mike wants to create a composite primary key for his entity class. Which of the\nfollowing annotations should he use?",
+        "options": [
+          "@Id",
+          "@EmbeddedId",
+          "@GeneratedValue",
+          "@ElementCollection"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "10",
+        "question": "on an entity. 8\nn\ni\nQ#35. How can you configure a Hibernate ent.ity to use a different database schema for read\ns\nand write operations? y\na\nr\nr\na\nh",
+        "options": [
+          "Using @ReadOnlySchema atnd @WriteSchema\ni\nw",
+          "Using @SQLRead and @SQLWrite\ne",
+          "Using @ReadSchemad and @WriteSchema\no",
+          "Using @SecondaryTable with different schemas"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "11",
+        "question": "Which of the following is not a core interface of Hibernate?",
+        "options": [
+          "Configuration",
+          "Criteria",
+          "SessionManagement",
+          "Session"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "12",
+        "question": "Is Session a thread-safe object?\nh\nt\ni\nw",
+        "options": [
+          "True\ne\nd",
+          "False\no\nc",
+          "none",
+          "all"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "13",
+        "question": "SessionFactory is a thread-safe object.",
+        "options": [
+          "True",
+          "False",
+          "none",
+          "all"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "14",
+        "question": "Which of the following methods returns proxy object?",
+        "options": [
+          "loadDatabase()",
+          "getDatabase()",
+          "load()",
+          "get()"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "15",
+        "question": "Which of the following methohd is used inside session only?\nt\ni\nw",
+        "options": [
+          "merge()\ne\nd",
+          "update()\no\nc",
+          "end()",
+          "kill()"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "16",
+        "question": "The SessionFactory is heavyweight object.",
+        "options": [
+          "False",
+          "True",
+          "none",
+          "all"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "17",
+        "question": "Which of the following is not a state of object in Hibernate?",
+        "options": [
+          "Attached()",
+          "Detached()",
+          "Persistent()",
+          "Transient()"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "18",
+        "question": "Which of the following is not ahn inheritance mapping strategies?\nt\ni\nw",
+        "options": [
+          "Table per hierarchy\ne\nd",
+          "Table per concrete class\no\nc",
+          "Table per subclass",
+          "Table per class"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "19",
+        "question": "Which of the following is not an advantage of using Hibernate Query\nLanguage?",
+        "options": [
+          "Database independent",
+          "Easy to write query",
+          "No need to learn SQL\nAnswer»",
+          "Difficult to implement"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 50+ Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      }
+    ],
+    "75+ JPA and Hibernet CCEE MCQ": [
+      {
+        "id": "1",
+        "question": "Online Children Adoption Project https://youtu.be/3T5HC2HKyT4?si=bntP78niYH802I7N\npg. 4 contact us on 8007592194 / 9284926333 www.codewitharrays.in\n\nMCQ on JPA and Hibernate\nQ#1. What does ORM stand for?\n(",
+        "options": [
+          "Object Relational Model\n(",
+          "Object Resource Mapping\n(",
+          "Object Relational Mapping\n(",
+          "Object Reference Mapping"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "2",
+        "question": "8\nn\ni\n.\ns\n(",
+        "options": [
+          "Entity Manager\ny\n(",
+          "Persistence Unit a\nr\n(",
+          "Query Language r\na\n(",
+          "Session Factory h"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "3",
+        "question": "0\nQ#10. What is a persistence unit in JPA? 8\nn\ni\n.\ns\ny\n(",
+        "options": [
+          "A set of all database tablesa\nr\n(",
+          "A logical group of related rentities\na\n(",
+          "A container-managed entity manager\nh\n(",
+          "A configuration file ftor all database tables"
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "4",
+        "question": "(d) A many-to-many relationship can't prod8uce the data redundancy problem.\nn\ni\n.\ns\ny\na\nr\nr\nAnswer: d) A many-to-many relationshaip can’t produce the data redundancy problem.\nh\nt\ni\nExplanation: Many-to-many relawtionships are not favorably recommended in a relational database\nbecause it can create many preoblems, such as Data redundancy, data insertion, deletion, and\nd\nupdating difficulties.\no\nc\nQ#13. Which of the following is supported by Hibernate?\n(",
+        "options": [
+          "HQL\n(",
+          "SQL\n(",
+          "JPQL\n(",
+          "All of the above"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "5",
+        "question": "8\nQ#15. What is the intent of the ‘mappedBy’ attribute in a bidirectional association mapping?\nn\ni\n.\ns\ny\na\n(",
+        "options": [
+          "It specifies the mapped colurmn name\nr\na\n(",
+          "It defines the target entity class\nh\n(",
+          "It determines the primtary key relationship\ni\nw\n(",
+          "It contains the name of the association-field on the owning side"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "6",
+        "question": "n\ni\n.\nAnswer: c) Responsible for the creation of Sessison objects.\ny\na\nExplanation: The Hibernate SessionFactoryr is responsible for the creation of Session objects. It is\nr\na\nused to create Hibernate Session objects that can perform CRUD-based operations.\nh\nt\ni\nQ#18. Which statement is correcwt about Hibernate and JPA?\ne\nd\no\nc\n(",
+        "options": [
+          "Hibernate is a particular implementation of JPA.\n(",
+          "Hibernate is used for database connection management, while JPA is used for ent\n(",
+          "Hibernate supports Java language features beyond the JPA.\n(",
+          "Hibernate and JPA are two different ORM frameworks for different programming la"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "7",
+        "question": "(b) To define the mapping between entitie s and database tables\nn\n(c) To indicate the relationship betweein two entities\n.\ns\n(d) To create the caching configuraytion for entities\na\nr\nr\na\nh\nt\ni\nw\nAnswer:",
+        "options": [
+          "To specify the generation strategy for primary keys\ne\nd\nExplanation: The @GeneraotedValue annotation in Hibernate is used to specify the strategy for\nprimary key generation. cIt allows you to define h",
+          "To provide the connection pooling mechanism\n(",
+          "To specify the database-specific SQL syntax\n(",
+          "To configure the second-level cache"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "8",
+        "question": "0\nQ#26. How can you create a native SQL query in Hibe8rnate?\nn\ni\n.\ns\ny\n(",
+        "options": [
+          "Using the createNativeQuery()a method\nr\n(",
+          "Using the createSQLQuery() rmethod\na\n(",
+          "Using the executeQuery(h) method\nt\n(",
+          "Using the executeNativieQuery() method"
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "9",
+        "question": "8\nn\ni\n.\ns\ny\nAnswer: b) @Cache a\nr\nr\na\nExplanation: To configure a second-level cache for an entity in Hibernate, we can use\nh\nthe @org.hibernate.annotations.Cacthe annotation. This annotation allows us to specify the caching\ni\nw\nsettings for the entity, such as the cache region and cache concurrency strategy etc.\ne\nd\nQ#29. When should you uose @Temporal annotation?\nc\n(",
+        "options": [
+          "If you have fields with type 'java.util.Collection'.\n(",
+          "If you want to create a temporary field.\n(",
+          "If you have fields with type 'java.util.Date' or 'java.util.Calendar'.\n(",
+          "If you want a field to be used in the persistence context."
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "10",
+        "question": "(b) It defines that entity updates should be cascaded to related entities.\nn\n(c) It defines that entity insertion shiould be cascaded to related entities.\n.\ns\n(d) All of the above y\na\nr\nr\na\nh\nt\ni\nw\nAnswer: c) It defines that entity insertion should be cascaded to related entities.\ne\nd\nExplanation: The CascadeToype.PERSIST option in JPA specifies that entity insertion should be\ncascaded to related enticties. It means that when an entity is persisted, any associated entities will\nalso be persisted.\nQ#32. What is the main usage of the @JoinColumn annotation in JPA?\n(",
+        "options": [
+          "To specify the database table and column name\n(",
+          "To specify a column for joining an entity association or element collection\n(",
+          "To define the primary key of a table in the database\n(",
+          "To configure the database join column"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "11",
+        "question": "Answer: b) Drop and re-create the database schemna on startup\ni\n.\ns\nExplanation: To enable automatic table creatioyn for entities in Hibernate, we can set the\na\nhibernate.hbm2ddl.auto property to “create” in the configuration. The ‘create’ option instructs\nr\nr\nHibernate to drop the database schemaa and recreate it on startup.\nh\nt\nQ#34. Which one is incorrect abouit Criteria Queries?\nw\ne\nd\no\nc\n(",
+        "options": [
+          "Criteria queries are more flexible as compared to HQL and JPQL.\n(",
+          "Like HQL and JPQL, Criteria queries provide native query support.\n(",
+          "Criteria queries provide better support for writing dynamic queries.\n(",
+          "It is easier to detect errors in the Criteria API during the compile time."
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "12",
+        "question": "JPA is used for ____? i\nw\ne",
+        "options": [
+          "For data access, persistednce, and management in Java applications",
+          "For testing java applicoations\nc",
+          "For creating runtime API",
+          "All of the above"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "13",
+        "question": "A database table is represented by an ____, which is a Java class.",
+        "options": [
+          "Persistence",
+          "Entity",
+          "Primary key",
+          "Relationships"
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "14",
+        "question": "Which of the following is an entity's urnique identifier?\nr\na",
+        "options": [
+          "Transactions h\nt",
+          "Entity i\nw",
+          "Primary key\ne",
+          "Relationships d"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "15",
+        "question": "In a relationship mapping, which of the following annotations is used to indicate the join\ncolumn?",
+        "options": [
+          "@Join",
+          "@Column",
+          "@JoinColumn",
+          "All of the above"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "16",
+        "question": "____ annotation is used to specify a Query by prov8iding a static name?\nn",
+        "options": [
+          "@list i\n.\ns",
+          "@NamedQuery\ny",
+          "@NamedQueries a\nr",
+          "@querieslist r"
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "17",
+        "question": "Which of the following annotations is used to define a list of named queries?",
+        "options": [
+          "@list",
+          "@NamedQuery",
+          "@NamedQueries",
+          "@querieslist"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "18",
+        "question": "Which of the following annotations is used to indicate an entity's primary key field?",
+        "options": [
+          "@pk",
+          "@primary",
+          "@key",
+          "@id"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "19",
+        "question": "Which of the following annotations defines a class as an entity?",
+        "options": [
+          "@table",
+          "@entitymanager",
+          "@entityfactory",
+          "@entity"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "20",
+        "question": "What do you mean by ORM?",
+        "options": [
+          "Object relationship mapping",
+          "Object-oriented relationship map",
+          "Originator relationship mapper",
+          "Object-relational mapper"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "21",
+        "question": "____ is a factory class that generataes EntityManager instances.\nh\nt",
+        "options": [
+          "Entity i\nw",
+          "EntityManagerFactory\ne",
+          "EntityManager d\no",
+          "Persistence unit"
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "22",
+        "question": "The ____ serves as a logical container for a collection of entity classes.",
+        "options": [
+          "Entity",
+          "EntityManagerFactory",
+          "EntityManager",
+          "Persistence unit"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "23",
+        "question": "JPA is based upon which of the following architecture?",
+        "options": [
+          "MVC",
+          "Layered architecture",
+          "MVVM",
+          "Client-server architecture"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "24",
+        "question": "JPA supports how many different inheritasnce strategies?\ny\na",
+        "options": [
+          "5 r\nr",
+          "8 a\nh",
+          "4\nt\ni",
+          "3 w"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "25",
+        "question": "How ways are there to fetch records from the database?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "26",
+        "question": "____ is used to create queries against entities to store in a relational database.",
+        "options": [
+          "JPA API",
+          "Persistence Objects",
+          "ORM",
+          "JPQL"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "27",
+        "question": "The Java class encapsulates instance data and behaviors into a single unit known as an ____.",
+        "options": [
+          "Object",
+          "Instance",
+          "Persistence Class",
+          "Java RMI"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "28",
+        "question": "Which of the following relationships links one entity with one or more instances of another\nentity?",
+        "options": [
+          "@ManyToOne Relation",
+          "@OneToMany Relation",
+          "@OneToOne Relation",
+          "@ManyToMany Relation"
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "29",
+        "question": "Several instances of one entity are connected with many instances of another entity in a ____\nrelationship.",
+        "options": [
+          "@ManyToOne Relation",
+          "@OneToMany Relation",
+          "@OneToOne Relation",
+          "@ManyToMany Relation"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 75+ JPA and Hibernet CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      }
+    ],
+    "60+ Spring CCEE MCQ": [
+      {
+        "id": "1",
+        "question": "What is IOC?",
+        "options": [
+          "Integral of conversion",
+          "Integrated oriented control",
+          "Inversion of conversion",
+          "Inversion of control"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "2",
+        "question": "How many types of IOC containers are there?",
+        "options": [
+          "5",
+          "4",
+          "3",
+          "2"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "3",
+        "question": "____ are the objects that constitute the backbone of your application and are maintained by the\nn\nSpring IoC container? i\n.\ns\ny",
+        "options": [
+          "Threads a",
+          "Process r\nr\na",
+          "Beans\nh",
+          "Application t"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "4",
+        "question": "Which of the following is the default autowiring mode?",
+        "options": [
+          "Byname",
+          "ByType",
+          "No",
+          "Constructor"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "5",
+        "question": "Which of the following scopwe, restricts the bean specification to a single instance per Spring\nIoC container? e\nd\no",
+        "options": [
+          "Singleton\nc",
+          "Prototype",
+          "Session",
+          "Global-session"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "6",
+        "question": "Which of the following scope allows a single bean specification to have an unlimited number\nof object instances?",
+        "options": [
+          "Singleton",
+          "Prototype",
+          "Session",
+          "Global-session"
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "7",
+        "question": "What is AOP?",
+        "options": [
+          "Aspect object programming",
+          "Aspect-oriented programming",
+          "Artificial-oriented programming",
+          "Artificial object programming"
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "8",
+        "question": "____ denotes an action taken by an aspect at a specific join point.",
+        "options": [
+          "Interceptor",
+          "Advice",
+          "Pointcut",
+          "Target Object"
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "9",
+        "question": "Which of the following type of advice executes before and after a joint point?",
+        "options": [
+          "Before advice",
+          "After Returning Advice",
+          "After Throwing Advice",
+          "Around Advice"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "10",
+        "question": "Which of the following type of advice executes after a joint point has been completed\nc\nproperly?",
+        "options": [
+          "Before advice",
+          "After Returning Advice",
+          "After Throwing Advice",
+          "Around Advice"
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "11",
+        "question": "How many types of collection configuration element does Spring offers?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "12",
+        "question": "Which of the following is useful for wiring, such as injecting a list of variables and allowing\nfor duplication?",
+        "options": [
+          "<LIST>",
+          "<MAP>",
+          "<SET>",
+          "<PROPS>"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "13",
+        "question": "____ can be employed to inject a collection of name-value pairs with any type of name and\nvalue?",
+        "options": [
+          "<LIST>",
+          "<MAP>",
+          "<SET>",
+          "<PROPS>"
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "14",
+        "question": "How many autowiring modes are there in Spring?",
+        "options": [
+          "4",
+          "5",
+          "2",
+          "3"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "15",
+        "question": "____ is a class that accepts incoming requestsi and routes them to the appropriate resources\n.\ns\nsuch as controllers, models, and views.\ny\na",
+        "options": [
+          "DispatcherServlet r\nr\na",
+          "Servlet\nh",
+          "ServletContext t\ni\nw",
+          "HandlerApapter"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "16",
+        "question": "With Spring Web MVC, which class serves as the front controller?",
+        "options": [
+          "DispatcherServlet",
+          "Servlet",
+          "ServletContext",
+          "HandlerApapter"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "17",
+        "question": "Which annotation designates a class as the controller?",
+        "options": [
+          "@cont",
+          "@controller",
+          "@_controller",
+          "@__controller"
+        ],
+        "correctAnswer": 1,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "18",
+        "question": "____ is used to increase modularity by cross-cutting concerns.",
+        "options": [
+          "JVM",
+          "Jdbctemplate class",
+          "OOP",
+          "AOP"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "19",
+        "question": "Which of the following helps us to fetch the record from the database?\ne\nd",
+        "options": [
+          "ResultSetExtractor o\nc",
+          "RowMapper",
+          "Both",
+          "None"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "20",
+        "question": "Which of the following annotation is used to associate a URL with a whole class or a specific\nhandler function?",
+        "options": [
+          "@RequestMapping",
+          "@RequestMap",
+          "@RequestMapper",
+          "@Mapper"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "21",
+        "question": "How many types of transaction management does spring support?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "2"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "22",
+        "question": "The key unit of modularity in AOP is the ____?",
+        "options": [
+          "Module",
+          "Class",
+          "Aspect",
+          "Objects"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From 60+ Spring CCEE MCQ.pdf",
+        "source": "ccee_pdf"
+      }
+    ],
+    "Springboot 100 Interview Question": [
+      {
+        "id": "1",
+        "question": "Using @EmbeddedId annotation –\nCreate a class which implements Serializable interface which contains all primary keys in it.\nAnnotate the class with @Embeddable annotation.\nThen embed this class in entity class CustomerAccount using @EmbeddedId annotation.\nQ34. What is the use of @EnableJpaRepositories method?\nAns: If the repositories classes belong to the sub package of the Spring Boot Main class, then\n@SpringBootApplication is enough as it scans the package using @EnableAutoConfiguration.\n\nIf the repository classes are not part of the sub package of the Main class, in that case, it will not scan\nthe repository classes, we need to use @EnableJpaRepositories. This needs to be provided in\nConfiguration class or SpringBootApplication class.\nQ35. What are the rules to follow to declare custom methods in Repository.\nAns: We need to follow certain rules to declare custom methods to retrieve the data as below.\nThe fetch methods should start with findByXXXXX followed by property name.\nEg:\nIf ",
+        "options": [
+          "Ans: It is another way to pass the search criteria in the where clause where the requirement is to\nretrieve the data based on multiple conditions.\nIt allows us to generate the queries based on Example",
+          "Front Controller Design Pattern\nMVC stands for Model, View and Controller.\nThe major role is played by DispatcherServlet in Spring MVC which acts as a front controller which\nreceives the incoming requ",
+          "Ans: When a client request comes in, it is intercepted by the Dispatcher Servlet which acts as a Front\nController. The dispatcher servlet is responsible for pre – processing of the request and calls t",
+          "The controller then processes the request and sends the response"
+        ],
+        "correctAnswer": 3,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From Springboot 100 Interview Question.pdf",
+        "source": "ccee_pdf"
+      }
+    ],
+    "DurgaSoft Spring Notes": [
+      {
+        "id": "1",
+        "question": "DURGA SOFTWARE SOLUTIONS ,202 HUDA Maitrivanam, Ameerpet , Hyd. Ph: 040-64512786 Page 25\n\nJAVA Means DURGASOFT\nc. Resource is an interface. ClasspathResource is an implementation class given\nby springframework.\nd. Both Resource interface and classpathResource are given\norg.springframework.core.io package.\nSyntax:\nResource res = new ClasspathResource(sfconfig.xml)\nStep 2:",
+        "options": [
+          "Spring IOC container object will be created by reading Bean definitions\nfrom the Resource object.",
+          "Spring IOC container is called BeanFactory and this container is\nresponsible for creating the Bean object and its assigning its dependencies.",
+          "BeanFactory is an interface and XmlBeanFactory is an implementation\nclass of it.",
+          "BeanFactory is an interface given in org.springframework.beans.factory and"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From DurgaSoft Spring Notes.pdf",
+        "source": "ccee_pdf"
+      }
+    ]
+  }
+}

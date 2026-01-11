@@ -1,0 +1,549 @@
+{
+  "category": "aptitude",
+  "module": "dac_school_aptitude",
+  "source": "ccee_pdfs",
+  "totalMcqs": 35,
+  "topicCount": 7,
+  "extractedAt": "2026-01-04T15:14:31.127430",
+  "mcqsByTopic": {
+    "HCF AND LCM MCQ-converted": [
+      {
+        "id": "1",
+        "question": "and 4147 respectively.",
+        "options": [
+          "858",
+          "696",
+          "1050",
+          "4147"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From HCF AND LCM MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "2",
+        "question": "in each case.",
+        "options": [
+          "548",
+          "540",
+          "532",
+          "524"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From HCF AND LCM MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      }
+    ],
+    "PROFIT AND LOSS MCQ-converted": [
+      {
+        "id": "1",
+        "question": "at a loss of 5 %. Find his total loss or gain%.",
+        "options": [
+          "2.7 %",
+          "5.2 %",
+          "4.2 %",
+          "5.1 %"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From PROFIT AND LOSS MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "2",
+        "question": "50, therby earning a profit of 30 %. Find the cost price of manufacturer.",
+        "options": [
+          "Rs. 20.36",
+          "Rs. 22.90",
+          "Rs. 25.89",
+          "Rs. 30.50"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From PROFIT AND LOSS MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      }
+    ],
+    "TRAIN MCQ-converted": [
+      {
+        "id": "1",
+        "question": "A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of\nthe train?",
+        "options": [
+          "120 metres",
+          "180 metres",
+          "324 metres",
+          "150 metres"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "2",
+        "question": "A train 125 m long passes a man, running at 5 km/hr in the same direction in which the\ntrain is going, in 10 seconds. The speed of the train is:",
+        "options": [
+          "45 km/hr",
+          "50 km/hr",
+          "54 km/hr",
+          "55 km/hr"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "3",
+        "question": "The length of the bridge, which a train 130 metres long and travelling at 45 km/hr can\ncross in 30 seconds, is:",
+        "options": [
+          "200 m",
+          "225 m",
+          "245 m",
+          "250 m"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "4",
+        "question": "Two trains running in opposite directions cross a man standing on the platform in 27\nseconds and 17 seconds respectively and they cross each other in 23 seconds. The ratio of\ntheir speeds is:",
+        "options": [
+          "1 : 3",
+          "3 : 2",
+          "3 : 4",
+          "None of these"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "5",
+        "question": "A train passes a station platform in 36 seconds and a man standing on the platform in 20\nseconds. If the speed of the train is 54 km/hr, what is the length of the platform?",
+        "options": [
+          "120 m",
+          "240 m",
+          "300 m",
+          "None of these"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "6",
+        "question": "Two trains of equal length are running on parallel lines in the same direction at 46 km/hr\nand 36 km/hr. The faster train passes the slower train in 36 seconds. The length of each\ntrain is:",
+        "options": [
+          "50 m",
+          "72 m",
+          "80 m",
+          "82 m"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "7",
+        "question": "A train 360 m long is running at a speed of 45 km/hr. In what time will it pass a bridge 140\nm long?",
+        "options": [
+          "40 sec",
+          "42 sec",
+          "45 sec",
+          "48 sec"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "8",
+        "question": "10 km and 0.9 km respectively. The time taken by the slower train to cross the faster train\nin seconds is:",
+        "options": [
+          "36",
+          "45",
+          "48",
+          "49"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "9",
+        "question": "A jogger running at 9 kmph alongside a railway track in 240 metres ahead of the engine\nof a 120 metres long train running at 45 kmph in the same direction. In how much time will\nthe train pass the jogger?",
+        "options": [
+          "3.6 sec",
+          "18 sec",
+          "36 sec",
+          "72 sec"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "10",
+        "question": "A 270 metres long train running at the speed of 120 kmph crosses another train running\nin opposite direction at the speed of 80 kmph in 9 seconds. What is the length of the other\ntrain?",
+        "options": [
+          "230 m",
+          "240 m",
+          "260 m",
+          "320 m"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "11",
+        "question": "A goods train runs at the speed of 72 kmph and crosses a 250 m long platform in 26\nseconds. What is the length of the goods train?",
+        "options": [
+          "230 m",
+          "240 m",
+          "260 m",
+          "270 m"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "12",
+        "question": "Two trains, each 100 m long, moving in opposite directions, cross each other in 8\nseconds. If one is moving twice as fast the other, then the speed of the faster train is:",
+        "options": [
+          "30 km/hr",
+          "45 km/hr",
+          "60 km/hr",
+          "75 km/hr"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "13",
+        "question": "Two trains 140 m and 160 m long run at the speed of 60 km/hr and 40 km/hr\nrespectively in opposite directions on parallel tracks. The time (in seconds) which they take\nto cross each other, is:",
+        "options": [
+          "9",
+          "9.6",
+          "10",
+          "10.8"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "14",
+        "question": "A train 110 metres long is running with a speed of 60 kmph. In what time will it pass a\nman who is running at 6 kmph in the direction opposite to that in which the train is going?",
+        "options": [
+          "5 sec",
+          "6 sec",
+          "7 sec",
+          "10 sec"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "15",
+        "question": "A train 800 metres long is running at a speed of 78 km/hr. If it crosses a tunnel in 1\nminute, then the length of the tunnel (in meters) is:",
+        "options": [
+          "130",
+          "360",
+          "500",
+          "540"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "16",
+        "question": "seconds. What is the length of the platform?",
+        "options": [
+          "320 m",
+          "350 m",
+          "650 m",
+          "Data inadequate"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "17",
+        "question": "A train speeds past a pole in 15 seconds and a platform 100 m long in 25 seconds. Its\nlength is:",
+        "options": [
+          "50 m",
+          "150 m",
+          "200 m",
+          "Data inadequate"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "18",
+        "question": "A train moves past a telegraph post and a bridge 264 m long in 8 seconds and 20\nseconds respectively. What is the speed of the train?",
+        "options": [
+          "69.5 km/hr",
+          "70 km/hr",
+          "79 km/hr",
+          "79.2 km/hr"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TRAIN MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      }
+    ],
+    "TIME AND WORK MCQ-converted": [
+      {
+        "id": "1",
+        "question": "days to complete the same work. How long will they take to complete the work , if they\nwork together?",
+        "options": [
+          "1.5 days",
+          "4.5 days",
+          "7 days",
+          "9.8 days"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TIME AND WORK MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "2",
+        "question": "men pack 18 boxes if they work for 9 hours a day?",
+        "options": [
+          "3.5 days",
+          "5 days",
+          "7.5 days",
+          "12 days"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TIME AND WORK MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "3",
+        "question": "A man can do a job in 10 days. His father takes 15 days and his son finishes it in 20 days.\nHow long will they take to complete the job if they all work together?",
+        "options": [
+          "Approximately 4.6 days",
+          "6 days",
+          "8 days",
+          "None"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TIME AND WORK MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "4",
+        "question": "days. With the help of C, they did the job in 8 days only. Then, C alone can do it job in:",
+        "options": [
+          "80 days",
+          "100 days",
+          "120 days",
+          "140 days"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From TIME AND WORK MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      }
+    ],
+    "AVERAGE MCQ-converted": [
+      {
+        "id": "1",
+        "question": "and 70. Find the average marks of all the students.",
+        "options": [
+          "54.78",
+          "55.23",
+          "50.36",
+          "58.33"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From AVERAGE MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      }
+    ],
+    "PERCENTAGE MCQ-converted": [
+      {
+        "id": "1",
+        "question": "% in second year and decreased by 10 % in third year. If at present the number of trees is\n26730, then find the number of tress in the beginning.",
+        "options": [
+          "30000",
+          "25000",
+          "27000",
+          "27865"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From PERCENTAGE MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "2",
+        "question": "at a loss of 5 %. Find his total loss or gain%.",
+        "options": [
+          "2.7 %",
+          "5.2 %",
+          "4.2 %",
+          "5.1 %"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From PERCENTAGE MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "3",
+        "question": "50, therby earning a profit of 30 %. Find the cost price of manufacturer.",
+        "options": [
+          "Rs. 20.36",
+          "Rs. 22.90",
+          "Rs. 25.89",
+          "Rs. 30.50"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From PERCENTAGE MCQ-converted.pdf",
+        "source": "ccee_pdf"
+      }
+    ],
+    "Blood Relation": [
+      {
+        "id": "1",
+        "question": "c) Nephew\nd) Son\nAnswer:",
+        "options": [
+          "Brother\nQ2. A is the son of",
+          "C is B’s sister. D is B’s mother. Then how is D related to A?\na) Mother\nb) Grandmother",
+          "Aunt",
+          "Sister"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From Blood Relation.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "2",
+        "question": "What is the relation of Q to S in the expression:\nQ * R – T + S",
+        "options": [
+          "Grandmother",
+          "Mother",
+          "Aunt",
+          "Granddaughter"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From Blood Relation.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "3",
+        "question": "Puzzle-Type Blood Relation Questions\nQ1. Pointing to a photograph, Rohit said:\n“He is the son of the only son of my grandfather.”\nHow is the person in the photograph related to Rohit?",
+        "options": [
+          "Father",
+          "Son",
+          "Brother",
+          "Uncle"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From Blood Relation.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "4",
+        "question": "Q3. In a family of six persons A, B, C, D, E, and F –\n● There are two married couples.\n● A is a doctor and father of E.\n● F is the grandfather of E and is a lawyer.\n● B is the wife of A and is a teacher.\n● D is the brother of E and C is the mother of D.\nWho is married to F?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "None"
+        ],
+        "correctAnswer": 2,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From Blood Relation.pdf",
+        "source": "ccee_pdf"
+      },
+      {
+        "id": "5",
+        "question": "● A is the father of B\n● B is the sister of C\n● C is the father of D\n● E is the daughter of A\nHow is E related to D?",
+        "options": [
+          "Aunt",
+          "Sister",
+          "Cousin",
+          "Mother"
+        ],
+        "correctAnswer": 0,
+        "snippet": null,
+        "type": "CONCEPTUAL",
+        "explanation": "From Blood Relation.pdf",
+        "source": "ccee_pdf"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "modules": {
+    "dac_school_tg_ms_dotnet": {
+      "mcqs": 1384,
+      "files": 21
+    },
+    "unknown": {
+      "mcqs": 2319,
+      "files": 68
+    },
+    "dac_school_tg_ads": {
+      "mcqs": 1223,
+      "files": 11
+    },
+    "dac_school_tg_oopj": {
+      "mcqs": 1809,
+      "files": 28
+    },
+    "dac_school_aptitude": {
+      "mcqs": 35,
+      "files": 7
+    },
+    "dac_school_tg_cpp": {
+      "mcqs": 811,
+      "files": 17
+    },
+    "dac_school_tg_dbt": {
+      "mcqs": 2310,
+      "files": 20
+    },
+    "dac_school_tg_cos_sdm": {
+      "mcqs": 1199,
+      "files": 13
+    },
+    "dac_school_tg_wpt": {
+      "mcqs": 922,
+      "files": 16
+    },
+    "dac_school_tg_wbjp": {
+      "mcqs": 180,
+      "files": 10
+    }
+  },
+  "totalMcqs": 12192,
+  "extractedAt": "2026-01-04T15:14:31.273068"
+}

@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cyber-black text-cyber-text font-sans antialiased overflow-x-hidden;
+  }
+  
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-cyber-dark;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-cyber-panel rounded-full hover:bg-cyber-muted;
+  }
+
+  /* Custom Select Styling */
+  select {
+    @apply cursor-pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2300f0ff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-right: 40px !important;
+  }
+  
+  select option {
+    background-color: #0a0a12;
+    color: #e0e0e0;
+    padding: 12px 16px;
+  }
+
+  select option:hover,
+  select option:focus,
+  select option:checked {
+    background: linear-gradient(90deg, rgba(0, 240, 255, 0.15) 0%, rgba(0, 240, 255, 0.05) 100%);
+    color: #00f0ff;
+  }
+
+  select:focus {
+    box-shadow: 0 0 0 2px rgba(0, 240, 255, 0.2), 0 0 20px rgba(0, 240, 255, 0.1);
+  }
+}
+
+@layer components {
+    .btn-primary {
+        @apply px-4 py-2 bg-cyber-primary/10 text-cyber-primary border border-cyber-primary/50 hover:bg-cyber-primary/20 hover:shadow-neon-blue transition-all duration-300 rounded font-bold uppercase tracking-wider text-sm backdrop-blur-sm;
+    }
+    .card {
+        @apply bg-cyber-panel/50 backdrop-blur-md border border-white/5 rounded-lg p-6;
+    }
+
+    /* Premium Select Dropdown - Dark Glass Effect */
+    .select-cyber {
+        width: 100%;
+        background: linear-gradient(135deg, #08080f 0%, #12121a 100%) !important;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 0.75rem;
+        padding: 1rem;
+        color: #ffffff !important;
+        outline: none;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%2300f0ff' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E") !important;
+        background-repeat: no-repeat !important;
+        background-position: right 16px center !important;
+        background-color: #08080f !important;
+        -webkit-appearance: none !important;
+        -moz-appearance: none !important;
+        appearance: none !important;
+        padding-right: 48px;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .select-cyber:hover {
+        border-color: rgba(0, 240, 255, 0.4);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 4px 20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 240, 255, 0.1);
+    }
+
+    .select-cyber:focus {
+        border-color: #00f0ff;
+        box-shadow: 0 0 0 3px rgba(0, 240, 255, 0.15), 0 0 20px rgba(0, 240, 255, 0.2);
+    }
+
+    .select-cyber option {
+        background-color: #08080f !important;
+        color: #c0c0c8 !important;
+        padding: 14px 16px;
+    }
+
+    .select-cyber option:checked,
+    .select-cyber option:hover {
+        background: linear-gradient(90deg, rgba(0, 240, 255, 0.2) 0%, rgba(0, 240, 255, 0.05) 100%) !important;
+        color: #00f0ff !important;
+    }
+
+    .select-cyber:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    /* Glowing Card Effect */
+    .card-glow {
+        @apply relative overflow-hidden;
+    }
+    .card-glow::before {
+        content: '';
+        @apply absolute inset-0 opacity-0 transition-opacity duration-500;
+        background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(0, 240, 255, 0.15), transparent 40%);
+    }
+    .card-glow:hover::before {
+        @apply opacity-100;
+    }
+
+    /* Stat Card */
+    .stat-card {
+        @apply bg-gradient-to-br from-cyber-dark via-cyber-panel to-cyber-dark border rounded-2xl p-8 relative overflow-hidden;
+        @apply flex flex-col items-center justify-center text-center;
+        @apply transition-all duration-500 hover:scale-[1.02] hover:shadow-xl;
+    }
+    .stat-card::before {
+        content: '';
+        @apply absolute top-0 right-0 w-40 h-40 rounded-full blur-3xl opacity-30;
+    }
+}
+
+@layer utilities {
+    .text-glow-cyan {
+        text-shadow: 0 0 10px rgba(0, 240, 255, 0.5), 0 0 20px rgba(0, 240, 255, 0.3);
+    }
+    .text-glow-red {
+        text-shadow: 0 0 10px rgba(255, 0, 60, 0.5), 0 0 20px rgba(255, 0, 60, 0.3);
+    }
+    .text-glow-yellow {
+        text-shadow: 0 0 10px rgba(234, 179, 8, 0.5), 0 0 20px rgba(234, 179, 8, 0.3);
+    }
+    .border-glow-cyan {
+        box-shadow: 0 0 15px rgba(0, 240, 255, 0.3), inset 0 0 15px rgba(0, 240, 255, 0.05);
+    }
+    
+    .nav-link-active {
+        @apply relative text-cyber-primary;
+    }
+    
+    .nav-link-active::after {
+        content: '';
+        @apply absolute -bottom-1 left-0 w-full h-[2px] bg-cyber-primary shadow-[0_0_10px_rgba(0,240,255,0.8)] rounded-full;
+        animation: link-glitch 0.3s ease-out forwards;
+    }
+
+    @keyframes link-glitch {
+        0% { width: 0%; opacity: 0; }
+        50% { width: 40%; opacity: 0.5; }
+        100% { width: 100%; opacity: 1; }
+    }
+}
